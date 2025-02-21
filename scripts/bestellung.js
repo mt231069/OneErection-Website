@@ -1,0 +1,2 @@
+//entleere localStorage
+localStorage.clear();
