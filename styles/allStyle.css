@@ -81,8 +81,8 @@
 .titellogo > * {
   width:100%;
   height: auto;
-  margin-top: 4%;
-  margin-bottom: 8%;
+  margin-top: 0%;
+  margin-bottom: 0%;
   display: flex;
   justify-content: center;
 }
@@ -221,6 +221,12 @@ footer {
   .contactInfo p{
     font-size: 90%;
     /* font-size: 2.5vw; Responsive scaling */
+    margin: 0.25%;
+  }
+
+  .contactInfo a{
+    color: white;
+    text-decoration: none;
     margin: 0.25%;
   }
 

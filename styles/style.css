@@ -146,10 +146,10 @@
 	}
 	.sectionheading h2{
 		text-decoration: none;
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	#sec2 p{
-		font-size: 100%;
+		font-size: 120%;
 	}
 	#gallery {
 		display: flex;
@@ -169,11 +169,11 @@
 		position: relative;
 		width: 30%;
 		display: flex;
-		justify-content: left;
+		justify-content: center;
 
 	}
 	#gallery img {
-		width: 50%;
+		width: 70%;
 		height: 100%;
 	}
 
@@ -307,7 +307,7 @@
 	.para {
 		margin-top: 0;
 		width: 50%;
-		font-size: 2vw;
+		font-size: 3vw;
 	}
 		
 	#bild {

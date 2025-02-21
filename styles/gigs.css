@@ -25,6 +25,7 @@
 .rand{
   width:25%;
   display: flex;
+  justify-content: right;
 }
 
 /* #zurück-zum-shop{
@@ -58,7 +59,7 @@
 
 #einkaufswagen{
   display: flex;
-  justify-content: right;
+  /* justify-content: right; */
   margin-top: 2%;
   padding-top: 1.5%;
   padding-bottom: 0.5%;
@@ -312,7 +313,7 @@
                 .cart-quantity {
                   font-size: 70%;
                   left: 25%;  
-                  bottom: 50%;
+                  bottom: 40%;
                 }
 
               .allrec{

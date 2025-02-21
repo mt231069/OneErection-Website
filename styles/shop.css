@@ -28,11 +28,11 @@
 			.rand{
 				width:25%;
 				display: flex;
-				justify-content: right;
 			}
 
 			#einkaufswagen{
 				display: flex;
+				justify-content: right;
 				margin-top: 2%;
 				padding-top: 1.5%;
 				padding-bottom: 0.5%;
@@ -48,10 +48,12 @@
 				display: flex;
 				align-items: center;
 				position: relative;
+				justify-content: flex-start;
 			}
 			
 			.cart-icon {
-				width: 50px;
+				margin-left:0;
+				width: 100%;
 				color: white;
 				z-index: 100;
 			}
@@ -63,15 +65,15 @@
 			}
 			
 			.cart-quantity {
-				color: white;
-				font-size: 16px;
-				font-weight: 700;
-				position: absolute;
-				top: 4px;
-				left: 30px;
-				width: 26px;
-				text-align: center;
-			}
+        z-index: 110;
+        color: white;
+        font-size: 100%;
+        position: absolute;
+        left: 37%;  
+        bottom: 50%;
+        text-align: center;
+    }
+
 
 /* Hintergrundbild */	
 

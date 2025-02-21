@@ -40,7 +40,7 @@
 	.text{
 		flex: 1;
 		width: 50%;
-		font-size:90%;
+		font-size:100%;
 		line-height: 2;
 	}
 	.picture{
@@ -76,7 +76,7 @@
 	.inhalt{
 		flex: 1;
 		width: 50%;
-		font-size: 90%;
+		font-size: 100%;
 		padding: 0% 3% 3% 3%;
 	}
 	.picture{

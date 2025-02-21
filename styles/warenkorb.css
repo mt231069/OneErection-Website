@@ -81,7 +81,7 @@ position: relative;
     }
 
     .cart-icon {
-        width: 50px;
+        width: 100%;
         color: white;
         z-index: 100;
     }
@@ -93,15 +93,12 @@ position: relative;
     }
 
     .cart-quantity {
+        z-index: 110;
         color: white;
-        font-size: 16px;
-        font-weight: 700;
-
+        font-size: 100%;
         position: absolute;
-        top: 4px;
-        left: 22px;
-        
-        width: 26px;
+        left: 37%;  
+        bottom: 50%;
         text-align: center;
     }
 
