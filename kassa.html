@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<title>ONE ERECTION</title>
+	<link rel="stylesheet" href="styles/kassa.css">
+	<link rel="stylesheet" href="styles/allStyle.css">
+	<meta charset="utf-8">
+	<meta name="author" content="Johannes Bruckner">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <script src="script.js" defer></script>
+	<script src="produkt.js" defer></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+		<script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "QFD1I-CRoz4nsDFB-",
+          });
+      })();
+    </script>
+</head>
+
+<body>
+
+	<div id="sitewrapper">
+	
+		<header>	
+			<div id="logowrapper">
+				<div class="titellogo">
+					<div><h1>ONE ERECTION</h1></div>
+				</div>			
+			</div>
+			
+			<nav id="horizontalnav">
+				<ul>
+					<li id="al"><a href="index.html">Home</a></li>
+					<li class="dropdown">
+						<a href="gigs.html" class="dropbtn">Gigs</a>
+					</li>
+					<li><a href="shop.html" class="active">Shop</a></li>
+					<li><a href="band.html">Band</a></li>
+					<li id="ar"><a href="gallery.html">Gallery</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		
+		<main class="AnchorForPositioning">
+
+			<section class="title-cart">
+				<div class="rand" id="zurück-zum-shop">
+					<a href="shop.html" id="zurück-zum-shop-button">
+									<h4>ZUM SHOP</h4>
+					</a>
+				</div>
+				<div id="seitentitel"><h2>Offizieller Merch Store</h2></div>
+				<div class="rand" id="einkaufswagen">
+						<a class="cart-link header-link" href="warenkorb.html">
+								<img class="cart-icon" src="pics/Icons/cart-icon.png">
+								<div class="cart-text"></div>
+								<div class="cart-quantity js-cart-quantity"></div>
+							</a>
+				</div>
+			</section>
+			
+			<div class="whitebg"></div>	
+            
+        <section id="maindiv">
+                
+					<div id="links">
+						<div id="kassa-titel">
+							<h2>Kassa</h2>
+						</div>
+						<div id="email">
+							<h3>E-Mail</h3>
+							<input type="email" id="emailadresse" class="input-feld email" placeholder="Email" name="email"> 
+							<br>
+						</div>
+						<div id="adresse">
+							<h2>Adresse</h2>
+								<input type="text" id="vorname" class="input-feld vorname"placeholder="Vorname" name="vorname"> 
+							<br>
+							<!-- <h3>Nachname</h3> -->
+								<input type="text" id="nachname" class="input-feld nachname" placeholder="Nachname" name="nachname"> 
+							<br>
+							<!-- <h3>Straße</h3> -->
+								<input type="text" class="input-feld strasse" placeholder="Straße" name="strasse">
+							<br>
+							<input type="text" class="input-feld Hausnummer" placeholder="Hausnummer" name="Hausnummer">
+							<br>
+							<!-- <h3>Postleitzahl</h3> -->
+								<input type="text" class="input-feld plz" placeholder="Postleitzahl" name="plz">
+							<br>
+							<!-- <h3>Ort</h3> -->
+								<input type="text" class="input-feld ort" placeholder="Ort" name="ort">
+							<br>
+						</div>
+						<div class="Zahlungsart">
+							<h2>Zahlungsart</h2>
+
+						</div>
+
+						<div>
+							<p>
+								Als Zahlungsart steht nur Vorkasse zur verfügung. Bitte überweisen Sie den Gesamtbetrag auf das folgende Konto:
+								blablablaba
+							</p>
+						</div>
+							<!-- <div class="zahlungsart">
+								<input type="radio" class="kreditkarte js-input" name="zahlungsart" value="kreditkarte">
+								<label for="kreditkarte">Kreditkarte</label>
+							</div>
+							<div class="zahlungsart">
+								<input type="radio" class="paypal js-input" name="zahlungsart" value="paypal">
+								<label for="paypal">Paypal</label>
+							</div>
+							<div class="zahlungsart">
+								<input type="radio" class="nachnahme js-input" name="zahlungsart" value="nachnahme">
+								<label for="nachnahme">Nachnahme</label>
+							</div> -->
+
+						<!-- <div class="agbs">
+							<h2>Allgemeine Geschäftsbedienungen</h2>
+						</div>
+							<div class="agbDiv">
+								<input type="checkbox" class="js-agb-checkbox" name="agb" value="agb">
+								<label for="agb">Ich akzeptiere die AGB</label>
+							</div> -->
+
+
+						<div class="fehler js-error-message">
+								Bitte füllen Sie alle Felder aus.
+						</div> 
+						<!-- <div class="fehler js-error-message2">
+								Bitte wählen Sie eine Zahlungsart.
+						</div>
+						<div class="fehler js-error-message3">
+								Bitte akzeptieren Sie die AGB.
+						</div> -->
+						<div class="bezahlt js-bezahlt-message4">
+								Vielen Dank für Ihre Bestellung!
+						</div> 
+
+
+
+
+
+					</div>
+
+					<div id="rechts">
+						<div class="kassa">
+							<h2 id="summe">Summe:</h2>
+							<h2 id="totalPrice" class="js-total-price"></h2>
+							<p>Alle Preise inkl. MwSt.</p>
+							<a href="" class="js-cart-link">
+								<!-- <button onclick='sendMail()' type="submit" class="checkout-button js-checkout-button">Jetzt Bezahlen</button> -->
+							</a>
+							<button type="submit" class="checkout-button js-checkout-button">
+									Jetzt Bezahlen
+						</button>
+						</div>
+					</div>
+
+				</div>
+      </section>
+
+
+			
+		</main>
+	</div>	
+		
+	<div class="fixed">
+		<div id="linie"></div>
+		<footer>
+			<div class="footercontent">
+				<div class="contactInfo">
+					<h4>One Erection</h4>
+				</div>
+				<!-- <div class="contactInfo">
+					<p>012334465758</p>
+				</div> -->
+				<div class="contactInfo">
+					<p>one.erection.band.official@gmail.com</p>
+				</div>
+				<!-- <div class="contactInfo">
+					<p>Singrienergasse 7</p>
+				</div> -->
+			</div>
+		</footer>
+	</div>
+
+	<script src="scripts/cart.js"></script>
+	<script src="scripts/kassa.js"></script>
+
+</body>
+
+</html>
