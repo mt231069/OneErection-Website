@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <image width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAWtJREFUeJztmuttgzAYRU+lDsAIjMAGdTdoN/BmfJt0hGSTphOkPxxXBgGBlgaw75FQcHjI92AbKw4IIYQQQgghxD6ogHrrSmxFBZyAT6DZuC4PJ4Y/A0ZhEtLw1e07oxAJQ+EjRuYSxsKngY1MJUw9eX/bIkaGEmrgArQjxz0FSGiQBEkASQAkAZgn4S0pGwVK6GNIwv9JcMB1483dqV/E+IWE55nnvS656YpcCDPFMWrCuGDJ5wehvlPXzcYRnsKe8XR/QDFW7A6O/QuI1Mm+sZIEx3EEeIbnCfXURXPHgCNgdMNegae/3tRxnBaQ0hIG0CK6gOuVF4Wf2wVeFlRoTb6Yfp35XrkF3glSVn0N7nEi5OkKWK3Z74GGMILbyHGPwv+g8Cj88VF4FH4QT8bhawoOD2E57ExYHru3NJZd+MiYBJfsZxs+MtUSsg8fGZJQTPhIKqG48JEoocjwkaL/JieEEEIIIYR4DN8iCc0sZr09gQAAAABJRU5ErkJggg==" id="img_1" />
+    <pattern patternUnits="objectBoundingBox" y="-0%" height="100%" width="100%" id="pattern_1">
+      <use xlink:href="#img_1" transform="matrix(1.5625 0 0 1.5625 0 0)" />
+    </pattern>
+  </defs>
+  <path d="M0 0L100 0L100 100L0 100L0 0Z" id="Arrow" fill="url(#pattern_1)" fill-rule="evenodd" stroke="none" />
+</svg>
