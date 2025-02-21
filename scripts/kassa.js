@@ -1,3 +1,4 @@
+// Gesamtpreis aus LocalStorage abrufen oder auf 0 setzen
 let totalPrice = JSON.parse(localStorage.getItem('totalPrice')) || 0;
 
 // Aktuelles Preiselement aktualisieren
@@ -11,10 +12,11 @@ let checkoutButton = document.querySelector('.js-checkout-button');
 if (checkoutButton) {
     checkoutButton.addEventListener('click', (event) => {
         let errorMessage = document.querySelector('.js-error-message');
+        let agbCheckbox = document.querySelector('.js-agb-checkbox');
         let inputFields = document.querySelectorAll('.input-feld');
         let allFilled = true;
 
-        // Überprüfen, ob alle Felder ausgefüllt sind
+        // Überprüfen, ob alle Eingabefelder ausgefüllt sind
         inputFields.forEach((input) => {
             if (input.value === '') {
                 input.style.border = '2px solid red';
@@ -24,25 +26,30 @@ if (checkoutButton) {
             }
         });
 
-        // Fehlernachricht anzeigen, wenn Felder nicht ausgefüllt sind
+        // AGB-Checkbox prüfen
+        if (!agbCheckbox.checked) {
+            agbCheckbox.style.outline = '2px solid red'; // Rote Umrandung
+            allFilled = false;
+        } else {
+            agbCheckbox.style.outline = 'none'; // Zurücksetzen
+        }
+
+        // Fehlernachricht anzeigen, wenn Felder oder AGB nicht akzeptiert wurden
         if (!allFilled) {
             if (errorMessage) {
                 errorMessage.style.display = 'block';
+                errorMessage.innerText = 'Bitte fülle alle Felder aus und akzeptiere die AGB.';
             }
             event.preventDefault();
         } else {
-
-            sendMail();
-
             if (errorMessage) {
                 errorMessage.style.display = 'none';
             }
+
+            sendMail();
+
             // Weiterleitung zur Bestellseite
-            // let cartLink = document.querySelector('.js-cart-link');
-            let cartLink = document.querySelector('.js-checkout-button');
-            if (cartLink) {
-                window.location.href = 'bestellung.html'
-            }
+            window.location.href = 'bestellung.html';
         }
     });
 }
@@ -56,7 +63,6 @@ inputFields.forEach((inputField, i) => {
     inputField.addEventListener('input', (event) => {
         paymentData[i] = event.target.value;
         savePaymentData();
-        console.log(paymentData);
     });
 });
 
@@ -75,11 +81,6 @@ function updatePaymentData() {
     });
 }
 
-
 // Zahlungsdaten beim Laden der Seite anzeigen
 updatePaymentData();
 updateCartQuantity();
-
-// Debugging-Ausgaben für Entwickler
-console.log(localStorage);
-console.log(paymentData);
