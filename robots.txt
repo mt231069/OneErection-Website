@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /bestellung.hml 
+Disallow: /warenkorb.html
+Disallow: /kassa.html
