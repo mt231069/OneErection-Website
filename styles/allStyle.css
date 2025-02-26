@@ -5,10 +5,10 @@
 	font-family:'futura';
 	src: url(../futura/Futura-CondensedLight.otf);
 }
-@font-face {
+/* @font-face {
 	font-family: 'Octynanz';
 	src: url(../OctynazRegular/OctynazRegular.ttf);
-}
+} */
 
 
 * {
@@ -46,8 +46,7 @@
   }
   
   h1 {
-    font-size: 2em; /* Default for larger screens */
-    /*font-size: 5vw; Responsive scaling */
+    font-size: 2em;
   }
 
   ul{
@@ -87,14 +86,23 @@
   justify-content: center;
 }
 .titellogo div{
+  font-family: "battery-park", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   max-width:100%;
   height:auto;
   /* line-height: 0.5em; */
-  font-family: 'Octynanz';
+  /* font-family: 'Octynanz'; */
   font-size: 500%;
 	/*font-size: 12vw; Responsive scaling */
   color:white;
 }
+
+.titellogo div h1 a{
+  color: white;
+  text-decoration: none;
+}
+
 
 
 /* STYLING FÜR DIE NAV*/
@@ -231,9 +239,7 @@ footer {
   }
 
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (min-width: 100px) and (max-width: 359px){
   #sitewrapper, footer, #linie{
     flex-grow: 1;
     min-width: 280px;
@@ -241,22 +247,36 @@ footer {
     width: 100%;
     margin: 10px auto;
   }
-  h1 {
-		font-size: 16vw;
-	}
-  h2 {
-    font-size: 4vw;
+
+  #sitewrapper {
+    width: 95%;
+  }
+
+  .titellogo div h1{
+    font-size: 50%;
   }
   #horizontalnav {
-    font-size: 3vw;
+    font-size: 70%;
+    font-weight: 100;
   }
-	/* p, li {
-		font-size: 2.5vw;
-	} */
+  .contactInfo p{
+    font-size: 70%;
+    margin: 1%;
+  }
+  .contactInfo h4{
+    font-size: 70%;
+    margin: 1%;
+  }
+  .contactInfo a{
+    font-size: 70%;
+    margin: 1%;
+  }
+
 }
 
-@media (max-width: 1024px) {
-  /* Styles for tablets and small laptops */
+
+
+@media (min-width: 360px)and (max-width: 480px) {
   #sitewrapper, footer, #linie{
     flex-grow: 1;
     min-width: 280px;
@@ -264,73 +284,166 @@ footer {
     width: 100%;
     margin: 10px auto;
   }
-  h1 {
-		font-size: 16vw;
-	}
+
+  #sitewrapper {
+    width: 95%;
+  }
+
+  .titellogo div h1{
+    font-size: 60%;
+  }
+  #horizontalnav {
+    font-size: 70%;
+    font-weight: 100;
+  }
+  .contactInfo p{
+    font-size: 70%;
+    margin: 1%;
+  }
+  .contactInfo h4{
+    font-size: 70%;
+    margin: 1%;
+  }
+  .contactInfo a{
+    font-size: 70%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px)  {
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  #sitewrapper {
+    width: 95%;
+  }
+
+  .titellogo div h1{
+    font-size: 100%;
+  }
+  #horizontalnav {
+    font-size: 90%;
+  }
+  .contactInfo p{
+    font-size: 90%;
+    margin: 1%;
+  }
+  .contactInfo h4{
+    font-size: 90%;
+    margin: 1%;
+  }
+  .contactInfo a{
+    font-size: 90%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  #sitewrapper {
+    width: 90%;
+  }
+
+  .titellogo div h1{
+    font-size: 130%;
+  }
   /* h2 {
     font-size: 4vw;
   } */
+  #horizontalnav {
+    font-size: 95%;
+  }
+  .contactInfo p{
+    font-size: 100%;
+    margin: 0.8%;
+  }
+  .contactInfo h4{
+    font-size: 100%;
+    margin: 0.8%;
+  }
+  .contactInfo a{
+    font-size: 100%;
+    margin: 0.8%;
+  }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) and (max-width: 767px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   #sitewrapper, footer, #linie{
     flex-grow: 1;
-    min-width: 500px;
-    max-width: 90%;
+    min-width: 280px;
+    max-width: 100%;
     width: 100%;
-    margin: 15px auto;
+    margin: 10px auto;
   }
-  h1, h2 {
-		font-size: 4vw;
-	}
-	p, li {
-		font-size: 0.5vw;
-	}
-} */
 
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #sitewrapper, footer, #linie {
-    flex-grow: 1;
-    min-width: 700px;
-    max-width: 1000px;
-    width: 100%;
-    margin: 18px auto;
-  } */
-  /* h1, h2 {
-		font-size: 3.5vw;
-	}
-	p, li {
-		font-size: 2.5vw;
-	} 
-}*/
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-  #sitewrapper, footer, #linie {
-    flex-grow: 1;
-    min-width: 900px;
-    max-width: 1400px;
-    width: 100%;
-    margin: 20px auto;
-  } */
-  /* h1, h2 {
-		font-size: 2.5vw;
-	}
-	p, li {
-		font-size: 2vw;
-	}
-} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-  #sitewrapper, footer, #linie {
-    flex-grow: 1;
-    min-width: 1200px;
-    max-width: 1600px;
-    width: 100%;
-    margin: 20px auto;
+  #sitewrapper {
+    width: 90%;
   }
-} */
 
+  .titellogo div h1{
+    font-size: 160%;
+  }
+  /* h2 {
+    font-size: 4vw;
+  } */
+  #horizontalnav {
+    font-size: 100%;
+  }
+  .contactInfo p{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+  .contactInfo h4{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+  .contactInfo a{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+#sitewrapper {
+  width: 75%;
+}
+
+  .titellogo div h1{
+    font-size: 200%;
+  }
+  #horizontalnav {
+    font-size: 100%;
+  }
+  .contactInfo p{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+  .contactInfo h4{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+  .contactInfo a{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+}

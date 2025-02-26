@@ -17,7 +17,7 @@
 				color: white;
 				text-align:center;
 				width: 50%;
-				font-size: smaller;
+				font-size: 90%;
 				height: fit-content;
 				margin-top: 2%;
 			}
@@ -113,9 +113,9 @@
 				background: linear-gradient(180deg, rgba(237,31,91,0.5) 0%, rgba(38,16,82,0.5) 100%);
 				padding-top: 8%;
 				padding-bottom: 10%;
-				font-size: 85%;
+				font-size: 90%;
 				border-radius: 8px;
-				font-weight: bold;
+				font-weight: lighter;
 			}
 
 		
@@ -239,29 +239,23 @@
 
 
 
-		@media only screen and (max-width: 600px) {
-
-			.titel-cart{
-				margin-top: 5%;
-				margin-bottom: 5%;
-			}
+@media (min-width: 100px) and (max-width: 359px){
 
 			#seitentitel {
-				margin-top: 2.5%;
-				font-size: 3vw;
+				/* margin-top: 2.5%; */
+				font-size: 50%;
 			}
 
 				#einkaufswagen img{
-					width: 40%;
+					width: 30%;
 					height: auto;
 				}
 
 				.cart-quantity {
-					font-size: 70%;
-					left: 20%;  
-					bottom: 80%;
+					font-size: 60%;
+					left: 15%;  
+					bottom: 40%;
 				}
-
 
 				#onlineshop{
 					display:flex;
@@ -293,9 +287,9 @@
 					border-radius: 8px;
 			}
 	
-			.haupt a {
-					font-size: 2vw;
-					font-weight: bold;
+			.haupt {
+					font-size: 80%;
+					font-weight: lighter;
 			}
 
 			.unter {
@@ -303,7 +297,7 @@
 			}
 	
 			.unter a {
-					font-size: 1.8vw;
+					font-size: 70%;
 					font-weight: lighter;
 			}
 
@@ -311,32 +305,25 @@
 					.grid-container {
 						grid-template-columns: repeat(1, 1fr);
 					}
-
 	}
 
-	@media only screen and (min-width: 601px)and (max-width: 1024px){
+@media (min-width: 360px) and (max-width: 480px){
 
-		.titel-cart{
-			margin-top: 5%;
-			margin-bottom: 5%;
+		#seitentitel {
+			/* margin-top: 2.5%; */
+			font-size: 50%;
 		}
 
-		/* #seitentitel {
-			margin-top: 2.5%;
-			font-size: 3vw;
-		} */
-
 			#einkaufswagen img{
-				width: 50%;
+				width: 40%;
 				height: auto;
 			}
 
 			.cart-quantity {
 				font-size: 70%;
-				left: 25%;  
-				bottom: 0;
+				left: 20%;  
+				bottom: 50%;
 			}
-
 
 			#onlineshop{
 				display:flex;
@@ -368,9 +355,9 @@
 				border-radius: 8px;
 		}
 
-		.haupt a {
-				font-size: 1.5vw;
-				font-weight: bold;
+		.haupt {
+				font-size: 85%;
+				font-weight: lighter;
 		}
 
 		.unter {
@@ -378,14 +365,166 @@
 		}
 
 		.unter a {
-				font-size: 1vw;
+				font-size: 75%;
 				font-weight: lighter;
 		}
 
 
 				.grid-container {
-					grid-template-columns: repeat(2, 1fr);
+					grid-template-columns: repeat(1, 1fr);
 				}
-
 }
-		
+
+@media (min-width: 481px) and (max-width: 768px){
+
+	#seitentitel {
+		/* margin-top: 2.5%; */
+		font-size: 70%;
+	}
+
+		#einkaufswagen img{
+			width: 40%;
+			height: auto;
+		}
+
+		.cart-quantity {
+			font-size: 70%;
+			left: 20%;  
+			bottom: 50%;
+		}
+
+		#onlineshop{
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 1.5%;
+		}
+
+		#sec1{
+			width:90%;
+			margin-bottom: 5%;
+			display: flex;
+		}
+
+		#unternav {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: space-around;
+				padding: 2%;
+		}
+
+	.haupt {
+			width: 25%;
+			margin: 1% 2%;
+			padding: 1.5%;
+			text-align: center;
+			border-radius: 8px;
+	}
+
+	.haupt {
+			font-size: 90%;
+			font-weight: lighter;
+	}
+
+	.unter {
+		display: none;
+	}
+
+	.unter a {
+			font-size: 80%;
+			font-weight: lighter;
+	}
+
+
+			.grid-container {
+				grid-template-columns: repeat(1, 1fr);
+			}
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+	#seitentitel {
+		/* margin-top: 2.5%; */
+		font-size: 80%;
+	}
+
+		#einkaufswagen img{
+			width: 40%;
+			height: auto;
+		}
+
+		.cart-quantity {
+			font-size: 80%;
+			left: 20%;  
+			bottom: 50%;
+		}
+
+		#onlineshop{
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 1.5%;
+		}
+
+		#sec1{
+			width:90%;
+			margin-bottom: 5%;
+			display: flex;
+		}
+
+		#unternav {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: space-around;
+				padding: 2%;
+		}
+
+	.haupt {
+			width: 25%;
+			margin: 1% 2%;
+			padding: 1.5%;
+			text-align: center;
+			border-radius: 8px;
+	}
+
+	.haupt {
+			font-size: 100%;
+			font-weight: lighter;
+	}
+
+	.unter {
+		display: none;
+	}
+
+	.unter a {
+			font-size: 90%;
+			font-weight: lighter;
+	}
+
+
+			.grid-container {
+				grid-template-columns: repeat(2, 1fr);
+			}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+
+	#seitentitel {
+		/* margin-top: 2.5%; */
+		font-size: 90%;
+	}
+
+	.haupt {
+			font-size: 100%;
+			font-weight: lighter;
+	}
+
+	.unter {
+			font-size: 90%;
+			font-weight: lighter;
+	}
+}

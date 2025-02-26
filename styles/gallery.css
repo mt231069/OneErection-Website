@@ -72,42 +72,92 @@
 
 
 
-		@media only screen and (max-width: 600px) {
+@media (min-width: 100px) and (max-width: 359px) {
 
-			#seitentitel {
-				margin-top: 2.5%;
-                padding: 1%;
-				font-size: 1.5vw;
-			}
+            #seitentitel {
+                margin-top: 2.5%;
+            }
+
+            #seitentitel h2{
+                font-size: 90%;
+            }
 
 
             .description {
-                font-size: 120%;
+                font-size: 90%;
             }
 
 					.grid-container {
 						grid-template-columns: repeat(1, 1fr);
 					}
-
 	    }
 
+@media (min-width: 360px) and (max-width: 480px) {
 
-        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #seitentitel {
+        margin-top: 2.5%;
+    }
 
-            #seitentitel {
-                margin-top: 2.5%;
-                padding: 1%;
-                font-size: 1.5vw;
+    #seitentitel h2{
+        font-size: 90%;
+    }
+
+
+    .description {
+        font-size: 100%;
+    }
+
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
             }
+}
 
-            .description {
-                font-size: 120%;
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #seitentitel {
+        margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+        font-size: 120%;
+    }
+
+
+    .description {
+        font-size: 110%;
+    }
+
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
             }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    #seitentitel {
+        margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+        font-size: 120%;
+    }
 
 
-                    .grid-container {
-                        grid-template-columns: repeat(2, 1fr);
-                    }
+    .description {
+        font-size: 120%;
+    }
 
-         }
-    
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1024px) {
+
+    .description {
+        font-size: 120%;
+    }
+
+}
+

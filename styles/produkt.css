@@ -37,7 +37,7 @@
                 height: fit-content;
                 padding:2%;
                 margin-top: 4%;
-                margin-left: 4%;
+                margin-left: 40%;
                 background-color: transparent;
                 color: white;
                 border: none;
@@ -85,13 +85,13 @@
         .cart-text {
             margin-top: 12px;
             font-size: 15px;
-            font-weight: 700;
+            /* font-weight: 700; */
         }
 
         .cart-quantity {
             color: white;
             font-size: 16px;
-            font-weight: 700;
+            /* font-weight: 700; */
 
             position: absolute;
             top: 4px;
@@ -315,38 +315,39 @@ a.faq{
 
 
 
-@media only screen and (max-width: 600px) {
-
+@media (min-width: 100px) and (max-width: 359px){
 
     #zurück-zum-shop{
         margin-top: 5%;
     }
 
         #zurück-zum-shop-button{
-            font-size: 80%;
+            font-size: 60%;
             padding:2%;
             margin-top: 4%;
-            margin-left: 4%;
+            margin-left: 25%;
         }
 
     #seitentitel {
         margin-top: 2.5%;
-        font-size: 3vw;
     }
 
-    #einkaufswagen img{
-        width: 40%;
+    #seitentitel h2{
+        font-size: 90%;
+    }
+
+
+      #einkaufswagen img{
+        width: 30%;
         height: auto;
+        bottom: 5%;
       }
 
       .cart-quantity {
-        font-size: 70%;
-        left: 10%;  
-        bottom: 0%;
+        font-size: 60%;
+        left: 0%;
+        font-weight: lighter;
       }
-
-
-
 
     .product-image {
         width: 50%;
@@ -354,15 +355,15 @@ a.faq{
     }
 
     #productName {
-        font-size: 4vw;
+        font-size: 90%;
     }
 
     #productPrice{
-        font-size: 3vw;
+        font-size: 60%;
     }
 
         #cart-button h4 {
-            font-size: 2vw;
+            font-size: 60%;
         }
         #cart-button img {
             display: none;
@@ -385,32 +386,40 @@ a.faq{
 }
 
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 360px) and (max-width: 480px){
 
-
-    .titel-cart{
+    #zurück-zum-shop{
         margin-top: 5%;
-        margin-bottom: 5%;
     }
 
-    /* #seitentitel {
+        #zurück-zum-shop-button{
+            font-size: 60%;
+            padding:2%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+    #seitentitel {
         margin-top: 2.5%;
-        font-size: 3vw;
-    } */
+    }
 
-        #einkaufswagen img{
-            width: 50%;
-            height: auto;
-        }
-
-        .cart-quantity {
-            font-size: 70%;
-            left: 15%;  
-            bottom: 0;
-        }
+    #seitentitel h2{
+        font-size: 90%;
+    }
 
 
+      #einkaufswagen img{
+        width: 40%;
+        height: auto;
+        bottom: 5%;
+      }
 
+      .cart-quantity {
+        font-size: 60%;
+        left: 8%;
+        padding-bottom: 5%;
+        font-weight: lighter;
+      }
 
     .product-image {
         width: 50%;
@@ -418,19 +427,156 @@ a.faq{
     }
 
     #productName {
-        font-size: 3vw;
+        font-size: 90%;
     }
 
     #productPrice{
-        font-size: 1.5vw;
+        font-size: 60%;
     }
 
         #cart-button h4 {
-            font-size: 1.2vw;
+            font-size: 60%;
         }
-        /* #cart-button img {
+        #cart-button img {
             display: none;
-        } */
+        }
+
+        .quantity select { 
+            font-size: 60%;  
+        }
+
+
+        .description h4 {
+            margin: 4% 4% 4% 0%;
+            font-size: 100%;
+        }
+
+            .description ul {
+                font-size: 80%;
+            }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    #zurück-zum-shop{
+        margin-top: 5%;
+    }
+
+        #zurück-zum-shop-button{
+            font-size: 80%;
+            padding:2%;
+            margin-top: 0%;
+            margin-left: 25%;
+        }
+
+    #seitentitel {
+        margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+        font-size: 120%;
+    }
+
+
+      #einkaufswagen img{
+        width: 40%;
+        height: auto;
+      }
+
+      .cart-quantity {
+        font-size: 80%;
+        left: 8%;
+        font-weight: lighter;
+      }
+
+    .product-image {
+        width: 50%;
+        height: 50%;
+    }
+
+    #productName {
+        font-size: 110%;
+    }
+
+    #productPrice{
+        font-size: 80%;
+    }
+
+        #cart-button h4 {
+            font-size: 70%;
+        }
+        #cart-button img {
+            display: none;
+        }
+
+        .quantity select { 
+            font-size: 60%;  
+        }
+
+
+        .description h4 {
+            margin: 4% 4% 4% 0%;
+            font-size: 110%;
+        }
+
+            .description ul {
+                font-size: 90%;
+            }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    #zurück-zum-shop{
+        margin-top: 5%;
+    }
+
+        #zurück-zum-shop-button{
+            font-size: 90%;
+            padding:2%;
+            margin-top: 0%;
+            margin-left: 25%;
+        }
+
+    #seitentitel {
+        margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+        font-size: 120%;
+    }
+
+
+      #einkaufswagen img{
+        width: 40%;
+        height: auto;
+      }
+
+      .cart-quantity {
+        font-size: 80%;
+        left: 8%;
+        font-weight: lighter;
+      }
+
+    .product-image {
+        width: 50%;
+        height: 50%;
+    }
+
+    #productName {
+        font-size: 130%;
+    }
+
+    #productPrice{
+        font-size: 80%;
+    }
+
+        #cart-button h4 {
+            font-size: 80%;
+        }
+        #cart-button img {
+            display: none;
+        }
 
         .quantity select { 
             font-size: 60%;  
@@ -447,3 +593,22 @@ a.faq{
             }
 
 }
+
+@media (min-width: 1025px) and (max-width: 1440px){
+
+    #zurück-zum-shop{
+        margin-top: 5%;
+    }
+
+        #zurück-zum-shop-button{
+            font-size: 100%;
+            padding:2%;
+            margin-top: 0%;
+            margin-left: 25%;
+        }
+
+    #seitentitel {
+        margin-top: 2.5%;
+    }
+}
+

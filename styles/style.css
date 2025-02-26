@@ -138,12 +138,13 @@
 	.sectionheading {
 		position: relative;
 		max-width:100%;
-		padding-left: 1%;
+		padding-left: 2%;
 		font-size: 180%;
 		font-weight: bold;
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
+
 	.sectionheading h2{
 		text-decoration: none;
 		font-size: 1.5em;
@@ -177,30 +178,16 @@
 		height: 100%;
 	}
 
-
-
-	@media only screen and (max-width: 600px) {
-
-		#sitewrapper {
-			width: 100%;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-		}
-
-		#horizontalnav {
-			font-size: 3vw;
-		}
+	@media (min-width: 100px) and (max-width: 359px) {
 
 		.socialicon{
-			margin: 0;
+			margin: 0%;
 		}
 			.socialicon img{
-				width:50%;
+				width:40%;
 				height: auto;
 			}
-
-
+	
 		#infobilder {
 			display: flex;
 			flex-direction: column; /* Stack images vertically */
@@ -211,61 +198,65 @@
 			.links {
 				width: 80%;
 			}
-
+	
 			#hinter {
 				width: 60%;
 			}
-
+	
 			.rechts {
 				width:60%;
 				padding-left: 2.5%;
 				padding-right: 1%;
 			}
-
+	
 				#Giginfo h2{
-					font-size: 4vw;
+					font-size: 100%;
 				}
 				#Giginfo li{
-					font-size: 3vw;
+					font-size: 70%;
 				}
-
+	
 				#Blumenlogo {
 					display: none;
 				}
-
+	
 		.sectionheading{
 			padding-left: 5%;
 		}
 			.sectionheading h2 {
-				font-size: 4vw;
+				font-size: 60%;
 				margin-top: 5%;
 				margin-bottom: 0%;
 			}
-
+	
 		#gallery {
 			padding: 0% 5% 5% 5%;
 		}
 		.para {
 			margin-top: 0;
 			width: 50%;
-			font-size: 3vw;
+			font-size: 60%;
 		}
 			
 		#bild {
 			display: none;
 			width: 0%;
 		}
-
-}
-
-@media (max-width: 1024px) {
-
-	#sitewrapper {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 	}
+
+
+
+
+/* Smartphones: 360px bis 480px */
+@media (min-width: 360px) and (max-width: 480px) {
+
+	.socialicon{
+		margin: 0%;
+	}
+		.socialicon img{
+			width:40%;
+			height: auto;
+		}
 
 	#infobilder {
 		display: flex;
@@ -288,15 +279,22 @@
 			padding-right: 1%;
 		}
 
-			/* #Blumenlogo {
+			#Giginfo h2{
+				font-size: 100%;
+			}
+			#Giginfo li{
+				font-size: 80%;
+			}
+
+			#Blumenlogo {
 				display: none;
-			} */
+			}
 
 	.sectionheading{
 		padding-left: 5%;
 	}
 		.sectionheading h2 {
-			font-size: 3vw;
+			font-size: 60%;
 			margin-top: 5%;
 			margin-bottom: 0%;
 		}
@@ -307,7 +305,7 @@
 	.para {
 		margin-top: 0;
 		width: 50%;
-		font-size: 3vw;
+		font-size: 60%;
 	}
 		
 	#bild {
@@ -315,5 +313,159 @@
 		width: 0%;
 	}
 }
+
+
+/* Tablets: 481px bis 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+
+	.socialicon{
+		margin: 0%;
+	}
+		.socialicon img{
+			width:50%;
+			height: auto;
+		}
+
+	#infobilder {
+		display: flex;
+		flex-direction: column; /* Stack images vertically */
+		justify-content: center; /* Center content vertically */
+		align-items: center; /* Center content horizontally */
+		width: 100%;
+	}
+		.links {
+			width: 80%;
+		}
+
+		#hinter {
+			width: 60%;
+		}
+
+		.rechts {
+			width:60%;
+			padding-left: 2.5%;
+			padding-right: 1%;
+		}
+
+			#Giginfo h2{
+				font-size: 110%;
+			}
+			#Giginfo li{
+				font-size: 95%;
+			}
+
+			#Blumenlogo {
+				display: none;
+			}
+
+	.sectionheading{
+		padding-left: 5%;
+	}
+		.sectionheading h2 {
+			font-size: 70%;
+			margin-top: 5%;
+			margin-bottom: 0%;
+		}
+
+	#gallery {
+		padding: 0% 5% 5% 5%;
+	}
+	.para {
+		margin-top: 0;
+		width: 50%;
+		font-size: 75%;
+	}
+		
+	#bild {
+		display: none;
+		width: 0%;
+	}
+}
+
+/* Kleine Laptops: 769px bis 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+	#sitewrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#infobilder {
+		display: flex;
+		flex-direction: column; 
+		justify-content: center; 
+		align-items: center; 
+		width: 100%;
+	}
+		.links {
+			width: 80%;
+		}
+
+		#hinter {
+			width: 60%;
+		}
+
+		.rechts {
+			width:60%;
+			padding-left: 2.5%;
+			padding-right: 1%;
+		}
+
+			#Blumenlogo {
+				display: none;
+			}
+
+	.sectionheading{
+		padding-left: 5%;
+	}
+		.sectionheading h2 {
+			font-size: 80%;
+			margin-top: 5%;
+			margin-bottom: 0%;
+		}
+
+	#gallery {
+		padding: 0% 5% 5% 5%;
+	}
+	.para {
+		margin-top: 0;
+		width: 50%;
+		font-size: 85%;
+	}
+		
+	#bild {
+		display: none;
+		width: 0%;
+	}
+}
+
+
+/* Große Bildschirme: 1025px bis 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+	.sectionheading{
+		padding-left: 2%;
+	}
+			.sectionheading h2 {
+				font-size: 100%;
+				margin-top: 5%;
+				margin-bottom: 0%;
+			}
+			
+		.para {
+			margin-top: 0;
+			width: 50%;
+			font-size: 100%;
+		}
+			
+		#bild {
+			width: 50%;
+			height: 50%;
+		}
+	}
+
+
+
 
 

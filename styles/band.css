@@ -212,8 +212,7 @@
 	}
 
 
-
-	@media only screen and (max-width: 600px) {
+	@media (min-width: 100px) and (max-width: 359px) {
 
 		#sitewrapper {
 			width: 100%;
@@ -239,7 +238,6 @@
 			justify-content: center;
 			align-items: center;
 			margin-bottom: 2%;
-			
 		}
 
 		#block0{
@@ -287,25 +285,32 @@
 			padding-bottom: 1%;
 		}
 
+		#überschrift{
+			text-align: center;
+			width: 130%;
+		}
 
+		#überschrift h2{
+			font-size: 80%;
+		}
 
+		.name{
+			font-size: 60%;
+		}
 
-
+		.beschreibungstext{
+			font-size: 80%;
+		}
 }
 
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 360px) and (max-width: 480px) {
 
 	#sitewrapper {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-	}
-
-	.picture img{
-		width: 70%;
-		height: auto;
 	}
 
 	#reihe2{
@@ -325,7 +330,6 @@
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 2%;
-		
 	}
 
 	#block0{
@@ -373,8 +377,216 @@
 		padding-bottom: 1%;
 	}
 
+	#überschrift{
+		text-align: center;
+		width: 125%;
+	}
 
+	#überschrift h2{
+		font-size: 85%;
+	}
 
+	.name{
+		font-size: 65%;
+	}
 
+	.beschreibungstext{
+		font-size: 85%;
+	}
+}
 
+@media (min-width: 481px) and (max-width: 768px) {
+
+	#sitewrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#reihe2{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 4%;
+		margin-bottom: 2%;
+	}
+
+	#reihe3{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 2%;
+	}
+
+	#block0{
+		width: 80%;
+		height:100%;
+	}
+
+	#block1{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+	#block2{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+
+	#block3{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#block4{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-left:0%;
+		padding-bottom: 1%;
+	}
+	#block5{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-right: 0%;
+		padding-bottom: 1%;
+	}
+
+	#block6{
+		width: 80%;
+		height:80%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#überschrift{
+		text-align: center;
+		width: 120%;
+	}
+
+	#überschrift h2{
+		font-size: 100%;
+	}
+
+	.name{
+		font-size: 80%;
+	}
+
+	.beschreibungstext{
+		font-size: 100%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	#sitewrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#reihe2{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 4%;
+		margin-bottom: 2%;
+	}
+
+	#reihe3{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 2%;
+	}
+
+	#block0{
+		width: 80%;
+		height:100%;
+	}
+
+	#block1{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+	#block2{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+
+	#block3{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#block4{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-left:0%;
+		padding-bottom: 1%;
+	}
+	#block5{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-right: 0%;
+		padding-bottom: 1%;
+	}
+
+	#block6{
+		width: 80%;
+		height:80%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#überschrift{
+		text-align: center;
+		width: 100%;
+	}
+
+	#überschrift h2{
+		font-size: 130%;
+	}
+
+	.name{
+		font-size: 110%;
+	}
+
+	.beschreibungstext{
+		font-size: 110%;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+	.beschreibungstext{
+		font-size: 110%;
+	}
+} 
+
+@media (min-width: 1441px) and (max-width: 5000px)
+{
+	.beschreibungstext{
+		font-size: 110%;
+	}
 }

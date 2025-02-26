@@ -124,12 +124,14 @@
   }
   .gig h3{
     font-size: 100%;
+    font-weight: lighter;
   }
 
   .allrec{
     border: 1px solid #ccc;
     display: flex;
     width: 100%;
+    margin: 5%;
   }
     .time{
       border-right: 1px solid #ccc;
@@ -253,93 +255,222 @@
           }
             .quantity select:hover {
                 border: 1px solid #ffffff;
-            }
-  
+              }
 
-          @media only screen and (max-width: 600px) {
 
+@media (min-width: 100px) and (max-width: 359px){
               #seitentitel {
                 margin-top: 2.5%;
-                font-size: 3vw;
               }
-
-                #einkaufswagen img{
-                  width: 40%;
-                  height: auto;
-                }
-
-                .cart-quantity {
-                  font-size: 70%;
-                  left: 20%;  
-                  bottom: 50%;
-                }
-
-
-              .allrec{
-                margin: 5%;
-              }
-
+          
               #seitentitel h2{
-                font-size: 4vw;
+                font-size: 90%;
               } 
-
-              .js-container h2{
-                font-size: 3vw;
-              }
-              .js-container h3{
-                font-size: 2.5vw;
-              }
-
-              .time{
-                padding: 2.4% 2% 4% 2%;
-              }
-
-              .cart-quantity-select {
-                font-size: 2.8vw;
-              }
-
-
-            }
-
-
-          @media only screen and (min-width: 601px) and (max-width: 1024px){
-
-
+          
                 #einkaufswagen img{
-                  width: 50%;
+                  width: 30%;
                   height: auto;
                 }
-
+          
                 .cart-quantity {
-                  font-size: 70%;
-                  left: 25%;  
+                  font-size: 60%;
+                  left: 15%;  
                   bottom: 40%;
                 }
-
+          
               .allrec{
                 margin: 5%;
               }
-
-
-              #cart-button h4{
-                font-size: 80%;
-              }
-
-
+          
               .js-container h2{
-                font-size: 2.5vw;
+                font-size: 60%;
+                /* font-weight: lighter; */
               }
               .js-container h3{
-                font-size: 2vw;
+                font-size: 50%;
+                font-weight: lighter;
               }
-
+          
               .time{
                 padding: 2.4% 2% 4% 2%;
               }
-
+          
               .cart-quantity-select {
-                font-size: 2.4vw;
+                font-size: 60%;
+                font-weight: lighter;
               }
-
-
             }
+
+
+@media (min-width: 360px) and (max-width: 480px){
+    #seitentitel {
+      margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+      font-size: 90%;
+    } 
+
+      #einkaufswagen img{
+        width: 40%;
+        height: auto;
+      }
+
+      .cart-quantity {
+        font-size: 70%;
+        left: 20%;  
+        bottom: 50%;
+      }
+
+    .allrec{
+      margin: 5%;
+    }
+
+    .js-container h2{
+      font-size: 80%;
+      /* font-weight: lighter; */
+    }
+    .js-container h3{
+      font-size: 60%;
+      font-weight: lighter;
+    }
+
+    .time{
+      padding: 2.4% 2% 4% 2%;
+    }
+
+    .cart-quantity-select {
+      font-size: 70%;
+      font-weight: lighter;
+    }
+  }
+
+
+  @media (min-width: 481px) and (max-width: 768px){
+    #seitentitel {
+      margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+      font-size: 120%;
+    } 
+
+      #einkaufswagen img{
+        width: 40%;
+        height: auto;
+      }
+
+      .cart-quantity {
+        font-size: 80%;
+        left: 20%;  
+        bottom: 50%;
+      }
+
+    .allrec{
+      margin: 5%;
+    }
+
+    .js-container h2{
+      font-size: 115%;
+      /* font-weight: lighter; */
+    }
+    .js-container h3{
+      font-size: 90%;
+      font-weight: lighter;
+    }
+
+    .time{
+      padding: 2.4% 2% 4% 2%;
+    }
+
+    .cart-quantity-select {
+      font-size: 90%;
+      font-weight: lighter;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px){
+    #seitentitel {
+      margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+      font-size: 140%;
+    } 
+
+      #einkaufswagen img{
+        width: 40%;
+        height: auto;
+      }
+
+      .cart-quantity {
+        font-size: 80%;
+        left: 20%;  
+        bottom: 50%;
+      }
+
+    .allrec{
+      margin: 5%;
+    }
+
+    .js-container h2{
+      font-size: 135%;
+      /* font-weight: lighter; */
+    }
+    .js-container h3{
+      font-size: 110%;
+      font-weight: lighter;
+    }
+
+    .time{
+      padding: 2.4% 2% 4% 2%;
+    }
+
+    .cart-quantity-select {
+      font-size: 100%;
+      font-weight: lighter;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1440px){
+    #seitentitel {
+      margin-top: 2.5%;
+    }
+
+    /* #seitentitel h2{
+      font-size: 140%;
+    }  */
+/* 
+      #einkaufswagen img{
+        width: 40%;
+        height: auto;
+      }
+
+      .cart-quantity {
+        font-size: 80%;
+        left: 20%;  
+        bottom: 50%;
+      } */
+
+    .allrec{
+      margin: 5%;
+    }
+
+    .js-container h2{
+      font-size: 135%;
+    }
+    .js-container h3{
+      font-size: 110%;
+      font-weight: lighter;
+    }
+
+    .time{
+      padding: 2.4% 2% 4% 2%;
+    }
+
+    .cart-quantity-select {
+      font-size: 100%;
+      font-weight: lighter;
+    }
+  }
+

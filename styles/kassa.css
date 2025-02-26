@@ -211,36 +211,36 @@
 
 
 
-
-    @media only screen and (max-width: 600px) {
-
-
+@media (min-width: 100px) and (max-width: 359px) {
         #zurück-zum-shop{
             margin-top: 5%;
         }
     
             #zurück-zum-shop-button{
-                font-size: 80%;
+                font-size: 60%;
                 padding:2%;
                 margin-top: 4%;
                 margin-left: 4%;
             }
     
-        #seitentitel {
-            margin-top: 2.5%;
-            margin-bottom: 1.5%;
-            font-size: 3vw;
-        }
+            #seitentitel {
+                margin-top: 2.5%;
+            }
+        
+            #seitentitel h2{
+                font-size: 90%;
+            }
     
         #einkaufswagen img{
-            width: 40%;
+            width: 30%;
             height: auto;
+            bottom: 5%;
             }
     
             .cart-quantity {
-            font-size: 70%;
-            left: 10%;  
-            bottom: 0%;
+            font-size: 60%;
+            left: 15%;
+            font-weight: lighter;
             }
 
 
@@ -254,6 +254,23 @@
                 margin-left: 14%;
             }
 
+            #links h2{
+            font-size: 90%;
+            }
+
+            #links h3{
+                font-size: 80%;
+            }
+
+            .vorkasse{
+                font-size: 70%;
+            }
+
+
+            .agbDiv{
+                font-size: 70%;
+            }
+
             #rechts{
                 display: flex;
                 width: 100%;
@@ -262,11 +279,173 @@
                 justify-content: center;
             }
 
-        
-    
-    
             #summe {
-                font-size: 150%;
+                font-size: 100%;
+            }
+    
+            #totalPrice {
+                font-size: 100%;
+            }
+    
+            .checkout-button {
+                font-size: 100%;
+            }
+    }
+
+
+
+@media (min-width: 360px) and (max-width: 480px) {
+        #zurück-zum-shop{
+            margin-top: 5%;
+        }
+    
+            #zurück-zum-shop-button{
+                font-size: 60%;
+                padding:2%;
+                margin-top: 4%;
+                margin-left: 25%;
+            }
+    
+            #seitentitel {
+                margin-top: 2.5%;
+            }
+        
+            #seitentitel h2{
+                font-size: 90%;
+            }
+    
+        #einkaufswagen img{
+            width: 40%;
+            height: auto;
+            bottom: 5%;
+            }
+    
+            .cart-quantity {
+            font-size: 60%;
+            left: 21%;
+            font-weight: lighter;
+            }
+
+
+            #maindiv{
+                display: block;
+                color: white;
+            }
+
+            #links{
+                width: 90%;
+                margin-left: 14%;
+            }
+
+            #links h2{
+            font-size: 100%;
+            }
+
+            #links h3{
+                font-size: 90%;
+            }
+
+            .vorkasse{
+                font-size: 80%;
+            }
+
+
+            .agbDiv{
+                font-size: 80%;
+            }
+
+            #rechts{
+                display: flex;
+                width: 100%;
+                margin-left: 0;
+                margin-top: 0%;
+                justify-content: center;
+            }
+
+            #summe {
+                font-size: 110%;
+            }
+    
+            #totalPrice {
+                font-size: 110%;
+            }
+    
+            .checkout-button {
+                font-size: 120%;
+            }
+    }
+
+
+    @media (min-width: 481px) and (max-width: 768px) {
+        #zurück-zum-shop{
+            margin-top: 5%;
+        }
+    
+            #zurück-zum-shop-button{
+                font-size: 80%;
+                padding:2%;
+                margin-top: 4%;
+                margin-left: 25%;
+            }
+    
+            #seitentitel {
+                margin-top: 2.5%;
+            }
+        
+            #seitentitel h2{
+                font-size: 120%;
+            }
+    
+        #einkaufswagen img{
+            width: 40%;
+            height: auto;
+            bottom: 5%;
+            }
+    
+            .cart-quantity {
+            font-size: 80%;
+            left: 21%;
+            padding-bottom: 0%;
+            font-weight: lighter;
+            }
+
+            #maindiv{
+                display: block;
+                color: white;
+            }
+
+            #links{
+                width: 90%;
+                margin-left: 14%;
+            }
+
+            #links h2{
+            font-size: 130%;
+            }
+
+            #links h3{
+                font-size: 110%;
+            }
+
+            .vorkasse{
+                font-size: 90%;
+            }
+
+
+            .agbDiv{
+                font-size: 90%;
+            }
+
+            #rechts{
+                display: flex;
+                width: 100%;
+                margin-left: 0;
+                margin-top: 0%;
+                justify-content: center;
+            }
+
+            #summe {
+                font-size: 130%;
             }
     
             #totalPrice {
@@ -274,15 +453,137 @@
             }
     
             .checkout-button {
-                font-size: 100%;
+                font-size: 130%;
             }
-    
-    
-    
     }
 
 
-    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    @media (min-width: 760px) and (max-width: 1024px) {
+        #zurück-zum-shop{
+            margin-top: 5%;
+        }
+    
+            #zurück-zum-shop-button{
+                font-size: 90%;
+                padding:2%;
+                margin-top: 4%;
+                margin-left: 25%;
+            }
+    
+            #seitentitel {
+                margin-top: 2.5%;
+            }
+        
+            #seitentitel h2{
+                font-size: 120%;
+            }
+    
+        #einkaufswagen img{
+            width: 40%;
+            height: auto;
+            bottom: 5%;
+            }
+    
+            .cart-quantity {
+            font-size: 80%;
+            left: 21%;
+            padding-bottom: 0%;
+            font-weight: lighter;
+            }
+
+            #maindiv{
+                display: block;
+                color: white;
+            }
+
+            #links{
+                width: 90%;
+                margin-left: 14%;
+            }
+
+            #links h2{
+            font-size: 140%;
+            }
+
+            #links h3{
+                font-size: 120%;
+            }
+
+            .vorkasse{
+                font-size: 100%;
+            }
+
+
+            .agbDiv{
+                font-size: 100%;
+            }
+
+            #rechts{
+                display: flex;
+                width: 100%;
+                margin-left: 0;
+                margin-top: 0%;
+                justify-content: center;
+            }
+
+            #summe {
+                font-size: 140%;
+            }
+    
+            #totalPrice {
+                font-size: 130%;
+            }
+    
+            .checkout-button {
+                font-size: 140%;
+            }
+    }
+
+
+    @media (min-width: 1025px) and (max-width: 1440px) {
+        #zurück-zum-shop{
+            margin-top: 5%;
+        }
+    
+            #zurück-zum-shop-button{
+                font-size: 100%;
+                padding:2%;
+                margin-top: 4%;
+                margin-left: 25%;
+            }
+    
+            #seitentitel {
+                margin-top: 2.5%;
+            }
+        
+    
+        #einkaufswagen img{
+            width: 40%;
+            height: auto;
+            bottom: 5%;
+            }
+    
+            .cart-quantity {
+            font-size: 80%;
+            left: 21%;
+            padding-bottom: 0%;
+            font-weight: lighter;
+            }
+
+            #summe {
+                font-size: 150%;
+            }
+    
+            #totalPrice {
+                font-size: 140%;
+            }
+    
+            .checkout-button {
+                font-size: 150%;
+            }
+    }
+
+    /* @media only screen and (min-width: 601px) and (max-width: 1024px) {
 
 
         .titel-cart{
@@ -326,4 +627,4 @@
     
     
     
-    }
+    } */

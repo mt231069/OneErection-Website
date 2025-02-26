@@ -69,3 +69,97 @@
   color:white;
   margin: 10%;
 }
+
+
+@media (min-width: 100px) and (max-width: 359px) {
+  #zurück-zum-shop{
+      margin-top: 5%;
+  }
+
+      #zurück-zum-shop-button{
+          font-size: 60%;
+          padding:2%;
+          margin-top: 4%;
+          margin-left: 25%;
+      }
+
+    .bestellung{
+      font-size: 50%;
+      font-weight: lighter;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  #zurück-zum-shop{
+      margin-top: 5%;
+  }
+
+      #zurück-zum-shop-button{
+          font-size: 60%;
+          padding:2%;
+          margin-top: 4%;
+          margin-left: 4%;
+      }
+
+    .bestellung{
+      font-size: 60%;
+      font-weight: lighter;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #zurück-zum-shop{
+      margin-top: 5%;
+  }
+
+      #zurück-zum-shop-button{
+          font-size: 80%;
+          padding:2%;
+          margin-top: 4%;
+          margin-left: 25%;
+      }
+
+    .bestellung{
+      font-size: 70%;
+      font-weight: lighter;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #zurück-zum-shop{
+      margin-top: 5%;
+  }
+
+      #zurück-zum-shop-button{
+          font-size: 90%;
+          padding:2%;
+          margin-top: 4%;
+          margin-left: 25%;
+      }
+
+    .bestellung{
+      font-size: 80%;
+      font-weight: lighter;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* #zurück-zum-shop{
+      margin-top: 5%;
+      HÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  } */
+
+      #zurück-zum-shop-button{
+          font-size: 100%;
+          padding:2%;
+          margin-top: 4%;
+          /* margin-left: 25%; */
+      }
+
+    .bestellung{
+      font-size: 90%;
+      font-weight: lighter;
+    }
+}
