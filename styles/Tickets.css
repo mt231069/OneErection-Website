@@ -1,0 +1,280 @@
+
+/*STYLING GANZE SEITE*/
+
+	@font-face {
+		font-family:'futura';
+		src: url(futura/Futura-CondensedLight.otf);
+	}
+	@font-face {
+		font-family: 'Octynanz';
+		src: url(OctynazRegular/OctynazRegular.ttf);
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+	
+	body {
+		background-color: #000;
+		margin:0;
+		padding: 0;
+		font-family: 'futura', sans-serif;
+		letter-spacing: 0.1em;
+	}
+	
+	p, li {
+		line-height: 1.3;
+	}
+	
+	main ul li {
+		margin-bottom: 1em;
+	}
+	
+	h1 {
+		font-size: 2em;
+	}
+	ul{
+		list-style-type: none;
+		line-height: normal;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	h2{
+		text-decoration: underline;
+	}
+
+
+	/*SITEWRAPPER*/
+	#sitewrapper {
+		background: radial-gradient(ellipse,#140533 23.53%, #04010c 48.33%, #000000 100%);
+		/* background: linear-gradient(135deg, #140533 0%,#12042e 25%,#000000 100%); */
+		max-width: 1140px;
+		min-width:900px;
+		width: 100%;
+		margin: 20px auto;
+		box-shadow: -4px 4px 11px -3px rgba(0,0,0,0.75);
+	}
+
+
+/* STYLING FÜR Das TITELLOGO */
+	#logowrapper {
+		position: relative;
+		width: 100%;
+		display:flex;
+		justify-content: center;
+	}
+	.titellogo > * {
+		width:100%;
+		height: auto;
+		margin-bottom: 2%;
+		display: flex;
+		justify-content: center;
+	}
+	.titellogo div{
+		width:100%;
+		height:auto;
+		line-height: 0.5em;
+		font-family: 'Octynanz';
+		font-size: 400%;
+		color:white;
+	}
+
+
+/* STYLING FÜR DIE NAV*/
+	#horizontalnav {
+		background: #261052;
+		color: white;
+		text-align: center;
+		border-radius: 14px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	#horizontalnav > ul {
+		position: relative;
+		display: flex;
+		justify-content: space-evenly;
+		z-index: 2;
+	}
+	#horizontalnav ul {
+		padding: 0;
+		list-style: none;	
+	}
+	#horizontalnav li {
+		position: relative;
+		margin-left: 4%;
+		margin-right: 4%;
+		border-radius: 8px;
+		flex: 1;
+		font-size: larger;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	
+	}
+	#al{
+		margin-left: 8% !important;
+	}
+	#ar{
+		margin-right: 8% !important;
+	}
+	#horizontalnav a {
+		display: block;
+		padding: 0.3em;
+		background:#120638;
+		border-radius: 8px;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+	}
+	#horizontalnav a:hover {
+		background: #000 !important;
+		color: #fff !important;
+	}
+	#horizontalnav a.active {
+		font-weight: bold;
+		background: #fff;
+		color:#000;
+	}
+	#horizontalnav .icon {
+		display: none;
+	}
+	.dropdown {
+		position: relative;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		width: 100%;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+
+	}
+	.dropdown-content li, .dropdown-content a {
+		width: 100%;
+		text-align: center !important;
+		background-color: transparent !important;
+		font-weight:normal;
+		font-size: 80%;
+	}
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+
+/* STYLING FÜR DIE RESTLICHE SEITE */
+	.AnchorForPositioning {
+		position: relative;
+	}
+	#socialnav{
+		display:flex;
+		justify-content:right;
+		margin-top: 1.5%;
+	}
+
+	.socialicon{
+		margin-left: 2%;
+	}
+	.socialicon img{
+		width:70%;
+		height: auto;
+	}
+	.whitebg {
+		background: transparent;
+		position: absolute;
+		z-index: -101;
+		width: 100%;
+		height: 100%;
+	}
+
+/*Daten*/
+    #Daten{
+        position: relative;
+    }
+    .infofeld{
+        background-color: #440B2B;
+        color:white;
+        justify-content: center;
+        width: 100%;
+        padding:0.05%;
+    }
+    .datum{
+        width: 100%;
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+    .ort{
+        width: 100%;
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+    .kaufen{
+        justify-content: center;
+        width: 100%;
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+    .kaufen .a{
+        color:white;
+        width: 100%;
+    }
+
+
+
+/*WEISSE LINIE*/
+	#linie{
+		background-color: white;
+		height:2px;
+		min-width: 900px;
+		width: 100%;
+	}
+
+
+/*FOOTER*/
+	footer a:hover{
+		text-decoration: underline;
+	}
+	footer {
+		display: flex;
+		background: #000;
+		color: white;
+		font-size: 0.7em;
+		padding-top: 1.5em;
+		min-width: 900px;
+		width: 100%;
+	}
+	.footer{
+		width: 25%;
+	}
+	.fcontent{
+		line-height: 2.7em;
+	}
+
+	.faq{
+		line-height: normal;
+	}
+	.sprache{
+		line-height: 8.5em;
+	}
+	#sprachwechsel{
+		width: 25%;
+		display: flex;
+		justify-content: center;
+	}
+	#trennung{
+		width: 4px;
+	}
+	#aktiv{
+		text-decoration: underline;
+	}
+	a.fcontent{
+		text-decoration: none;
+		color: white;
+	}
+	a.sprache{
+		text-decoration: none;
+		color: white;
+	}
+	a.faq{
+		text-decoration: none;
+		color: white;
+	}
