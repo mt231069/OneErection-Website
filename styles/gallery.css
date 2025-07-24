@@ -1,0 +1,163 @@
+/* STYLING FÜR DIE RESTLICHE SEITE */
+.AnchorForPositioning {
+  position: relative;
+}
+
+/*Titel*/
+      .title{
+          display:flex;
+          justify-content:center;
+      }
+
+      #seitentitel{
+          background:linear-gradient(180deg,#210738 0%, #590e3e 100%);
+          box-shadow: 0px 2px 4px rgb(100,100,100,0.5);
+          border-radius: 8px;
+          color: white;
+          text-align:center;
+          width: 50%;
+          font-size: smaller;
+          height: fit-content;
+          margin-top: 2.5%;
+      }
+
+/* Hintergrundbild */
+      .whitebg {
+          background: transparent;
+          position: absolute;
+          z-index: -101;
+          width: 100%;
+          height: 100%;
+      }
+/* Grid-Container */
+
+
+.grid-container {
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:98%;
+    color:white;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 80%;
+}
+
+    .grid-container a{
+        color: white;
+    }
+
+    .grid-item {
+        display: flex;
+        flex-wrap: wrap;
+        padding:5% 5% 1%;
+        margin-right: 5%;
+        /* outline: 0.5px solid white; */
+    }
+
+    .description {
+        font-size: 150%;
+        margin-bottom: 2.5%;
+    }
+
+    .title-picture {
+        display: flex;
+        justify-content: center;
+        border: 1px solid white;
+    }
+        .title-picture img{
+            width: 100%;
+            height: auto;
+        }
+
+
+
+@media (min-width: 100px) and (max-width: 359px) {
+
+            #seitentitel {
+                margin-top: 2.5%;
+            }
+
+            #seitentitel h2{
+                font-size: 90%;
+            }
+
+
+            .description {
+                font-size: 90%;
+            }
+
+					.grid-container {
+						grid-template-columns: repeat(1, 1fr);
+					}
+	    }
+
+@media (min-width: 360px) and (max-width: 480px) {
+
+    #seitentitel {
+        margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+        font-size: 90%;
+    }
+
+
+    .description {
+        font-size: 100%;
+    }
+
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #seitentitel {
+        margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+        font-size: 120%;
+    }
+
+
+    .description {
+        font-size: 110%;
+    }
+
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    #seitentitel {
+        margin-top: 2.5%;
+    }
+
+    #seitentitel h2{
+        font-size: 120%;
+    }
+
+
+    .description {
+        font-size: 120%;
+    }
+
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1024px) {
+
+    .description {
+        font-size: 120%;
+    }
+
+}
+

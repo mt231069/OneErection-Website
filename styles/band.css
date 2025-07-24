@@ -1,0 +1,592 @@
+
+/* STYLING FÜR DIE RESTLICHE SEITE */
+	.AnchorForPositioning {
+		position: relative;
+		color: white;
+	}
+
+
+/*REIHE 1*/
+	#reihe1{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-top: 2.5%;
+	}
+
+	#block0{
+		display:flex;
+		flex-wrap: wrap;
+		align-items: center;
+		width: 50%;
+		height:100%;
+		background: rgba(0,150,136,0);
+	}
+	#überschrift{
+		text-align: center;
+		width: 100%;
+	}
+
+	#überschrift h2{
+		font-size: 115%;
+		background-color: #261052;
+		padding:2%;
+		margin-left: 13%;
+		width:40%;
+		height:auto;
+		border-radius: 8px;
+	}
+	.text{
+		flex: 1;
+		width: 50%;
+		font-size:100%;
+		line-height: 2;
+	}
+	.picture{
+		flex-shrink:0;
+		width: 50%;
+		height: auto;
+		margin-top: 7%;
+		margin-left: 2%;
+		
+	}
+	.picture img{
+		width: 100%;
+		height:auto;
+		border: white;
+		border-width: 0.5px;
+		border-style: solid;
+	}
+
+/*ALLGEMEIN REIHE 2/3*/
+	.name{
+		text-align: center;
+		width: 100%;
+
+	}
+	.name h1{
+		font-size: 130%;
+		font-weight: bold;
+		margin-left: 13%;
+		width:70%;
+		height:auto;
+		border-radius: 8px;
+	}
+	.inhalt{
+		flex: 1;
+		width: 50%;
+		font-size: 100%;
+		padding: 0% 3% 3% 3%;
+	}
+	.picture{
+		flex-shrink:0;
+		width: 40%;
+		height: auto;
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-right: 3%
+	}
+	.picture img{
+		width: 100%;
+		height:70%;
+		border: white;
+		border-width: 0.5px;
+		border-style: solid;
+	}
+
+/*REIHE 2*/
+
+	#reihe2{
+		width: 100%;
+		display: flex;
+		justify-content:space-between;
+		margin-top: 7%;
+		margin-bottom: 2%;
+	}
+		#block1{
+			display:flex;
+			flex-wrap: wrap;
+			align-items: center;
+			width: 25%;
+			height:100%;
+			margin-top: 5.2%;
+			background: linear-gradient(79deg, rgba(33,7,56,0.15) 0%, #590e3e 100%);
+		}
+		#block2{
+			display:flex;
+			flex-wrap: wrap;
+			align-items: center;
+			width: 25%;
+			height:100%;
+			background: linear-gradient(179deg, #590e3e 0%, #210738 100%);
+		}
+
+		#block3{
+			display:flex;
+			flex-wrap: wrap;
+			align-items: center;
+			width: 25%;
+			height:100%;
+			margin-top: 4%;
+			background: linear-gradient(105deg, rgba(89,14,62,0.16) 0%, #210738 100%);
+			padding-bottom: 1%;
+		}
+		#block3 h1{
+			margin-bottom: 30%;
+				}
+		#block3 .inhalt{
+			margin-bottom: 20%;
+		}
+
+/*REIHE 3*/
+	#reihe3{
+		width: 100%;
+		display: flex;
+		justify-content:space-evenly;
+		margin-bottom: 2%;
+		
+	}
+		#block4{
+			display:flex;
+			flex-wrap: wrap;
+			align-items: center;
+			width: 30%;
+			height:100%;
+			margin-top: 5.6%;
+			margin-left:5%;
+			background: linear-gradient(79deg, rgba(33,7,56,0.15) 0%, #590e3e 100%);
+			padding-bottom: 1%;
+		}
+		#block5{
+			display:flex;
+			flex-wrap: wrap;
+			align-items: center;
+			width: 30%;
+			height:100%;
+			margin-top: 5%;
+			margin-right: 5%;
+			background: linear-gradient(105deg, rgba(89,14,62,0.16) 0%, #210738 100%);
+			padding-bottom: 1%;
+		}
+
+		#pic4{
+			height:50%;
+		}
+
+/* Reihe 4 */
+
+#reihe4{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2%;
+	
+}
+
+		#block6{
+			display:flex;
+			flex-wrap: wrap;
+			align-items: center;
+			width: 30%;
+			height:80%;
+			margin-top: 5.6%;
+			background: linear-gradient(105deg, rgba(89,14,62,0.16) 0%, #210738 100%);
+			padding-bottom: 1%;
+		}
+
+			#pic6{
+				width: 90%;
+				height:auto;
+			}
+
+
+/*WEISSE LINIE*/
+
+	#linie{
+		background-color: white;
+		height:2px;
+		margin-top: 0;
+		min-width: 900px;
+		width: 100%;
+	}
+
+
+	@media (min-width: 100px) and (max-width: 359px) {
+
+		#sitewrapper {
+			/* width: 100%; */
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		#reihe2{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 4%;
+			margin-bottom: 2%;
+		}
+
+		#reihe3{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 2%;
+		}
+
+		#block0{
+			width: 80%;
+			height:100%;
+		}
+
+		#block1{
+			width: 80%;
+			height:100%;
+			margin-top: 5.6%;
+		}
+		#block2{
+			width: 80%;
+			height:100%;
+			margin-top: 5.6%;
+		}
+
+		#block3{
+			width: 80%;
+			height:100%;
+			margin-top: 5.6%;
+			padding-bottom: 1%;
+		}
+
+		#block4{
+			width: 80%;
+			height:100%;
+			margin-top: 5.6%;
+			margin-left:0%;
+			padding-bottom: 1%;
+		}
+		#block5{
+			width: 80%;
+			height:100%;
+			margin-top: 5.6%;
+			margin-right: 0%;
+			padding-bottom: 1%;
+		}
+
+		#block6{
+			width: 80%;
+			height:80%;
+			margin-top: 5.6%;
+			padding-bottom: 1%;
+		}
+
+		#überschrift{
+			text-align: center;
+			width: 130%;
+		}
+
+		#überschrift h2{
+			font-size: 80%;
+		}
+
+		.name{
+			font-size: 60%;
+		}
+
+		.beschreibungstext{
+			font-size: 80%;
+		}
+}
+
+
+@media (min-width: 360px) and (max-width: 480px) {
+
+	#sitewrapper {
+		/* width: 100%; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#reihe2{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 4%;
+		margin-bottom: 2%;
+	}
+
+	#reihe3{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 2%;
+	}
+
+	#block0{
+		width: 80%;
+		height:100%;
+	}
+
+	#block1{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+	#block2{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+
+	#block3{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#block4{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-left:0%;
+		padding-bottom: 1%;
+	}
+	#block5{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-right: 0%;
+		padding-bottom: 1%;
+	}
+
+	#block6{
+		width: 80%;
+		height:80%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#überschrift{
+		text-align: center;
+		width: 125%;
+	}
+
+	#überschrift h2{
+		font-size: 85%;
+	}
+
+	.name{
+		font-size: 65%;
+	}
+
+	.beschreibungstext{
+		font-size: 85%;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+	#sitewrapper {
+		/* width: 100%; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#reihe2{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 4%;
+		margin-bottom: 2%;
+	}
+
+	#reihe3{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 2%;
+	}
+
+	#block0{
+		width: 80%;
+		height:100%;
+	}
+
+	#block1{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+	#block2{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+
+	#block3{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#block4{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-left:0%;
+		padding-bottom: 1%;
+	}
+	#block5{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-right: 0%;
+		padding-bottom: 1%;
+	}
+
+	#block6{
+		width: 80%;
+		height:80%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#überschrift{
+		text-align: center;
+		width: 120%;
+	}
+
+	#überschrift h2{
+		font-size: 100%;
+	}
+
+	.name{
+		font-size: 80%;
+	}
+
+	.beschreibungstext{
+		font-size: 100%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	#sitewrapper {
+		/* width: 100%; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#reihe2{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 4%;
+		margin-bottom: 2%;
+	}
+
+	#reihe3{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 2%;
+	}
+
+	#block0{
+		width: 80%;
+		height:100%;
+	}
+
+	#block1{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+	#block2{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+	}
+
+	#block3{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#block4{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-left:0%;
+		padding-bottom: 1%;
+	}
+	#block5{
+		width: 80%;
+		height:100%;
+		margin-top: 5.6%;
+		margin-right: 0%;
+		padding-bottom: 1%;
+	}
+
+	#block6{
+		width: 80%;
+		height:80%;
+		margin-top: 5.6%;
+		padding-bottom: 1%;
+	}
+
+	#überschrift{
+		text-align: center;
+		width: 100%;
+	}
+
+	#überschrift h2{
+		font-size: 130%;
+	}
+
+	.name{
+		font-size: 110%;
+	}
+
+	.beschreibungstext{
+		font-size: 110%;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+	.beschreibungstext{
+		font-size: 110%;
+	}
+} 
+
+@media (min-width: 1441px) and (max-width: 5000px)
+{
+	.beschreibungstext{
+		font-size: 110%;
+	}
+}

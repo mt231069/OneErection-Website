@@ -1,0 +1,451 @@
+
+
+
+@font-face {
+	font-family:'futura';
+	src: url(../futura/Futura-CondensedLight.otf);
+}
+/* @font-face {
+	font-family: 'Octynanz';
+	src: url(../OctynazRegular/OctynazRegular.ttf);
+} */
+
+
+* {
+	box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+    /* .scrollable-page {
+      overflow-y: scroll;
+  } */
+
+  
+  body {
+	background-color: black;
+	  margin: 0;
+	  padding: 0;
+	  font-family: 'futura', sans-serif;
+	  letter-spacing: 0.1em;
+  }
+  
+  p, li {
+    font-size: 1em; /* Default for larger screens */
+    /* font-size: 3vw; Responsive scaling */
+    line-height: 1.3;
+  }
+  
+  main ul li {
+	  margin-bottom: 1em;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+
+  ul{
+	list-style-type: none;
+	line-height: normal;
+	}
+
+	a:link{
+		text-decoration: none;
+		color:white;
+	}
+
+  #sitewrapper {
+  flex-grow: 1;
+	background: radial-gradient(ellipse,#140533 23.53%, #04010c 48.33%, #000000 100%);
+	/* background: linear-gradient(135deg, #140533 0%,#12042e 25%,#000000 100%); */
+	min-width: 900px;
+  max-width: 1400px;
+	width: 100%;
+	margin: 20px auto;
+  /* padding: 5%; */
+	box-shadow: -4px 4px 11px -3px rgba(0,0,0,0.75);
+}
+
+/* STYLING FÜR Das TITELLOGO */
+#logowrapper {
+  position: relative;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  
+}
+.titellogo > * {
+  width:100%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  justify-content: center;
+}
+.titellogo div{
+  font-family: "battery-park", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width:100%;
+  height:auto;
+  /* line-height: 0.5em; */
+  /* font-family: 'Octynanz'; */
+  font-size: 500%;
+	/*font-size: 12vw; Responsive scaling */
+  color:white;
+}
+
+.titellogo div h1 a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* STYLING FÜR DIE NAV*/
+#horizontalnav {
+background: #261052;
+color: white;
+text-align: center;
+border-radius: 14px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+transition: opacity .3s ease-in-out;
+}
+
+#horizontalnav > ul {
+display: flex;
+justify-content: space-evenly;
+position: relative;
+z-index: 2;
+}
+
+#horizontalnav ul {
+padding: 0;
+list-style: none;	
+}
+
+#horizontalnav li {
+margin-left: 4%;
+margin-right: 4%;
+border-radius: 8px;
+flex: 1;
+font-size: larger; 
+/*font-size: 4vw; Responsive scaling */
+font-weight: bolder;
+letter-spacing: 0.1em;
+}
+#al{
+margin-left: 8% !important;
+}
+#ar{
+margin-right: 8% !important;
+}
+
+#horizontalnav a {
+display: block;
+padding: 0.3em;
+background:#120638;
+border-radius: 8px;
+text-align: center;
+color: white;
+text-decoration: none;
+}
+
+#horizontalnav a:hover {
+background: #000 !important;
+color: #fff !important;
+}
+
+#horizontalnav a.active {
+font-weight: bold;
+background: #fff;
+color:#000;
+}
+
+#horizontalnav .icon {
+  display: none;
+}
+
+/* .dropdown {
+position: relative;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+width: 100%;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content li, .dropdown-content a {
+width: 100%;
+text-align: left !important;
+background-color: transparent !important;
+font-weight: normal;
+font-size: 80%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+
+/*WEISSE LINIE*/
+#linie{
+  z-index: 100;
+  background-color: white;
+  height:1px;
+  margin-top: 0;
+  min-width: 900px;
+  width: 100%;
+}
+
+footer {
+  flex-grow: 1;
+	min-width: 900px;
+  max-width: 1400px;
+	width: 100%;
+	margin: 20px auto;
+}
+
+.footercontent{
+  width: 100%;
+  bottom: 0;
+  color: white;
+}
+
+.contactInfo{
+  display:flex;
+  justify-content: center;
+}
+  .contactInfo h4{
+    margin: 0.5%;
+  }
+  .contactInfo p{
+    font-size: 90%;
+    /* font-size: 2.5vw; Responsive scaling */
+    margin: 0.25%;
+  }
+
+  .contactInfo a{
+    color: white;
+    text-decoration: none;
+    margin: 0.25%;
+  }
+
+
+@media (min-width: 100px) and (max-width: 359px){
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  #sitewrapper {
+    width: 95%;
+  }
+
+  .titellogo div h1{
+    font-size: 50%;
+  }
+  #horizontalnav {
+    font-size: 70%;
+    font-weight: 100;
+  }
+  .contactInfo p{
+    font-size: 70%;
+    margin: 1%;
+  }
+  .contactInfo h4{
+    font-size: 70%;
+    margin: 1%;
+  }
+  .contactInfo a{
+    font-size: 70%;
+    margin: 1%;
+  }
+
+}
+
+
+
+@media (min-width: 360px)and (max-width: 480px) {
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  #sitewrapper {
+    width: 95%;
+  }
+
+  .titellogo div h1{
+    font-size: 60%;
+  }
+  #horizontalnav {
+    font-size: 70%;
+    font-weight: 100;
+  }
+  .contactInfo p{
+    font-size: 70%;
+    margin: 1%;
+  }
+  .contactInfo h4{
+    font-size: 70%;
+    margin: 1%;
+  }
+  .contactInfo a{
+    font-size: 70%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px)  {
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  #sitewrapper {
+    width: 95%;
+  }
+
+  .titellogo div h1{
+    font-size: 100%;
+  }
+  #horizontalnav {
+    font-size: 90%;
+  }
+  .contactInfo p{
+    font-size: 90%;
+    margin: 1%;
+  }
+  .contactInfo h4{
+    font-size: 90%;
+    margin: 1%;
+  }
+  .contactInfo a{
+    font-size: 90%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  #sitewrapper {
+    width: 90%;
+  }
+
+  .titellogo div h1{
+    font-size: 130%;
+  }
+  /* h2 {
+    font-size: 4vw;
+  } */
+  #horizontalnav {
+    font-size: 95%;
+  }
+  .contactInfo p{
+    font-size: 100%;
+    margin: 0.8%;
+  }
+  .contactInfo h4{
+    font-size: 100%;
+    margin: 0.8%;
+  }
+  .contactInfo a{
+    font-size: 100%;
+    margin: 0.8%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  #sitewrapper {
+    width: 90%;
+  }
+
+  .titellogo div h1{
+    font-size: 160%;
+  }
+  /* h2 {
+    font-size: 4vw;
+  } */
+  #horizontalnav {
+    font-size: 100%;
+  }
+  .contactInfo p{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+  .contactInfo h4{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+  .contactInfo a{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  #sitewrapper, footer, #linie{
+    flex-grow: 1;
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+#sitewrapper {
+  width: 75%;
+}
+
+  .titellogo div h1{
+    font-size: 200%;
+  }
+  #horizontalnav {
+    font-size: 100%;
+  }
+  .contactInfo p{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+  .contactInfo h4{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+  .contactInfo a{
+    font-size: 100%;
+    margin: 0.5%;
+  }
+}
