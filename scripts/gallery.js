@@ -7,7 +7,7 @@ gallery.forEach((album) => {
   `<div class="grid-item">
     <a class="js-gallery-link" gallery-id="${album.id}" href="album.html">
       <div class="description">${album.description}</div>
-      <div class="title-picture"><img src="${album.titlePicture}" alt="${album.description}">
+      <div class="title-picture"><img src="${album.titlePicture}" alt="Fotoalbum-Cover">
       </div>
     </a>
   </div>`;
