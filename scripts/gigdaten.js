@@ -1,17 +1,17 @@
 const gigdaten = [
-  {
-    preisCent: "50",
-    picture2:"Produktpics/ticket_mockup.png",
-    name: "Tickets SUb Graz",
-    location: "U4 Vienna",
-    adresse: "Schoenbrunner Strasse 222, Wien, AT 1120",
-    date: "2025-09-09",
-    entry: "tba",
-    showtime: "tba",
-    info: " Infos kommen bald",
-    ticket: true,
-    id: "c491d55d-69f7-48b2-8707-a0b109cf3a3e"
-  },
+  // {
+  //   preisCent: "50",
+  //   picture2:"Produktpics/ticket_mockup.png",
+  //   name: "Tickets SUb Graz",
+  //   location: "U4 Vienna",
+  //   adresse: "Schoenbrunner Strasse 222, Wien, AT 1120",
+  //   date: "2025-09-09",
+  //   entry: "tba",
+  //   showtime: "tba",
+  //   info: " Infos kommen bald",
+  //   ticket: true,
+  //   id: "c491d55d-69f7-48b2-8707-a0b109cf3a3e"
+  // },
   // {
   //   preisCent: "20",
   //   picture2:"Produktpics/ticket_mockup.png",
