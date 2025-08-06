@@ -1,0 +1,61 @@
+/* STYLING FÜR DIE RESTLICHE SEITE */
+.AnchorForPositioning {
+  position: relative;
+
+}
+
+    .page-title{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 5px 25px 5px;
+    }
+    .page-title h2 {
+        font-size: var(--fs-500);
+        font-weight: 300;
+    }
+
+/* Grid-Container */
+
+.grid-container {
+    padding: 20px;
+    gap: 20px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+    .grid-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .description {
+        margin-bottom: 2.5%;
+        text-align: center;
+        font-size: var(--fs-300);
+    }
+
+    .title-picture {
+        display: flex;
+        justify-content: center;
+        border: 1px solid white;
+    }
+        .title-picture img{
+            width: 100%;
+            max-height: 300px;
+            height: auto;
+        }
+
+
+
+@media  (max-width: 768px) {
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+

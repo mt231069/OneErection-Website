@@ -1,0 +1,131 @@
+/* STYLING FÜR DIE RESTLICHE SEITE */
+.AnchorForPositioning {
+  position: relative;
+  line-height: 1.5;
+}
+
+/*Titel*/
+.page-heading {
+  padding: 5% 0% 0% 0;
+  display:flex;
+  justify-content:center;
+  width: 100%;
+}
+
+  .heading{
+    text-align:center;
+    width: fit-content;
+  }
+    .heading h2 {
+      font-size: var(--fs-600);
+      font-weight: 300;
+      margin: 0;
+    }
+
+
+
+.gig{
+  margin-top: 2%;
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.js-container{
+  width: 100%;
+}
+  .gig h2 {
+    font-size: var(--fs-500);
+    font-weight: 300;
+  }
+
+  .gig h3 {
+    font-size: var(--fs-300);
+    font-weight: 300;
+  }
+ 
+  .allrec{
+    border: 1px solid #ccc;
+    display: flex;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+    .time{
+      border-right: 1px solid #ccc;
+      width: 30%;
+      padding: 1% 1% 2% 1%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    /* .time-data h3{
+      padding-bottom: 10px;
+    } */
+
+    .location-price{
+      display: flex;
+      flex-direction: column;
+      width: 70%; 
+      padding: 1% 1% 2% 1%;
+      gap: 20px;
+    }
+      .location{
+        background-color: rgb(84, 82, 82);
+        padding-left: 5px;
+      }
+
+      .adresse-price{
+        display: flex;
+        padding-left: 2%;
+        padding-right: 5%;
+      }
+        .adresse{
+          width: 75%;
+        }
+
+        .price{
+          width: 25%;
+          display: flex;
+          justify-content: end;
+        }
+      
+      .info-cart-quantity{
+        display: flex;
+        width: 100%;
+        padding-left: 2%;
+      }
+        .info{
+          width: 50%;
+        }
+    
+      .cart-quantity-select{
+        width: 50%;
+        display: flex;
+        justify-content: end;
+      }
+
+      #cart-button {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        /* background-color: #410A20;*/
+        background-color: #B65E49;
+        /* border: 1px solid #874DA8; */
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      #cart-button:hover {
+          border: 1px solid #ffffff;
+          color: white;
+      }
+        #cart-button h4 {
+          font-size: var(--fs-300);
+          font-weight: 300;
+        }
+  
+
+

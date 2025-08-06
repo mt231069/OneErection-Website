@@ -1,0 +1,29 @@
+.inhalt {
+  /* margin-top: 5%; */
+  font-size: var(--fs-300);
+}
+
+  .text{
+    width: 100%;
+    padding: 10%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+  }
+
+    .text h1 {
+      font-size: var(--fs-500);
+      font-weight: 400;
+    }
+
+    .text h2 {
+      font-size: var(--fs-400);
+      font-weight: 400;
+    }
+
+    .text h3 {
+      font-size: var(--fs-400);
+      font-weight: 400;
+    }
