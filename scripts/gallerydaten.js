@@ -1,4 +1,25 @@
 const gallery = [
+    {
+    id: "9f3b7d1e-0c42-4c17-a6a8-34c2d9eebf8a",
+    description: "Planet Festival Tour <br> Gasometer",
+    albumDescription: "Finale der PP Tour",
+    titlePicture: "gallerypics/Gasometer_25/1E_Gasometer_25-04.avif",
+    titlePictureQf: "gallerypics/Gasometer_25/1E_Gasometer_25-04_Qf.avif",
+    pictures: [
+      "gallerypics/Gasometer_25/1E_Gasometer_25-02.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-03.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-04.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-05.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-06.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-07.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-08.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-09.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-10.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-11.avif",
+      "gallerypics/Gasometer_25/1E_Gasometer_25-12.avif",
+    ],
+    photographer: "Yuriy Pyrtko"
+  },
   {
     id: "1e0c5f2b-3d6f-4b8a-9c7d-8f1c2e3b4a5d",
     description: "Album Release <br> AERA",
