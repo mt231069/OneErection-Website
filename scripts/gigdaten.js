@@ -9,7 +9,7 @@ const gigdaten = [
      entry: "19:30",
      showtime: "19:30",
      info: " Infos kommen bald",
-     ticket: false,
+     ticket: true,
      id: "c491d55d-69f7-48b2-8707-a0b109cf3a3e"
    }
   // ,
