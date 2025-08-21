@@ -10,7 +10,7 @@ const gigdaten = [
        showtime: "19:30",
        info: " Infos kommen bald",
        ticket: false,
-       whereToBuy: "DM for Tickets",
+       whereToBuy: "/",
        id: "c491d55d-69f7-48b2-8707-a0b109cf3a3e"
      }
   // {
