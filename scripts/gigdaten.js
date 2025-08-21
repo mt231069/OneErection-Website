@@ -1,17 +1,18 @@
 const gigdaten = [
-  // {
-  //   preisCent: "50",
-  //   picture2:"Produktpics/ticket_mockup.png",
-  //   name: "Tickets SUb Graz",
-  //   location: "U4 Vienna",
-  //   adresse: "Schoenbrunner Strasse 222, Wien, AT 1120",
-  //   date: "2025-09-09",
-  //   entry: "tba",
-  //   showtime: "tba",
-  //   info: " Infos kommen bald",
-  //   ticket: true,
-  //   id: "c491d55d-69f7-48b2-8707-a0b109cf3a3e"
-  // },
+  {
+     preisCent: "tba",
+     picture2:"Produktpics/ticket_mockup.png",
+     name: "Tickets Replugged",
+     location: "Replugged",
+     adresse: "Lerchenfelder Str. 23, 1070 Wien",
+     date: "2025-10-25",
+     entry: "19:30",
+     showtime: "19:30",
+     info: " Infos kommen bald",
+     ticket: false,
+     id: "c491d55d-69f7-48b2-8707-a0b109cf3a3e"
+   }
+  // ,
   // {
   //   preisCent: "20",
   //   picture2:"Produktpics/ticket_mockup.png",
