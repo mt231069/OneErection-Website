@@ -16,7 +16,7 @@ gigdaten.forEach((gig) => {
         console.log("nein");
         ticketHTML = 
         `<div class="quantity">
-        nur Abendkassa
+        ${gig.whereToBuy}
         </div>`;
     }
 
