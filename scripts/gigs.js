@@ -4,8 +4,7 @@ gigdaten.forEach((gig) => {
     let ticketHTML = '';
 
     if(gig.ticket === true) {
-        console.log("ja");
-
+        
         ticketHTML = 
         `<a id="cart-button" data-gig-id=${gig.id}
         href="${gig.ticketLink}" target="_blank">
@@ -54,7 +53,6 @@ gigdaten.forEach((gig) => {
         </div>
     </div>`;
     productPrice = gig.preisCent;
-    console.log(gigdaten)
 });
 
 document.querySelector(".js-container").innerHTML = productsHTML;
