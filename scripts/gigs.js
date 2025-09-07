@@ -4,7 +4,7 @@ gigdaten.forEach((gig) => {
     let ticketHTML = '';
 
     if(gig.ticket === true) {
-        
+
         ticketHTML = 
         `<a id="cart-button" data-gig-id=${gig.id}
         href="${gig.ticketLink}" target="_blank">
@@ -32,7 +32,7 @@ gigdaten.forEach((gig) => {
         </div>
         <div class="location-price">
             <div class="location">
-                <h2>${gig.location}</h2>
+                <h2>${gig.location} - ${gig.name}</h2>
             </div>
             <div class="adresse-price">
                 <div class="adresse">
@@ -64,4 +64,5 @@ if(productsHTML === '') {
     document.querySelector(".heading").innerHTML = 
     `<h2>UPCOMING GIGS</h2>`;
 }
+
 
