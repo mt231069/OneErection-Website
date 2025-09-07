@@ -8,7 +8,7 @@ gigdaten.forEach((gig) => {
 
         ticketHTML = 
         `<a id="cart-button" data-gig-id=${gig.id}
-        href="https://one-erection.sumupstore.com/produkte">
+        href="${gig.ticketLink}" target="_blank">
         <h4>zum Shop</h4>
         </a>
         `;
@@ -66,3 +66,4 @@ if(productsHTML === '') {
     document.querySelector(".heading").innerHTML = 
     `<h2>UPCOMING GIGS</h2>`;
 }
+
