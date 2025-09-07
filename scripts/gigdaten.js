@@ -7,7 +7,7 @@ const gigdaten = [
       adresse: "Lerchenfelder Str. 23, 1070 Wien",
       date: "2025-10-25",
       entry: "19:00",
-      showtime: "19:00",
+      showtime: "19:30",
       info: "Online Vorverkauf und Abendkassa (12€)",
       ticket: true,
       ticketLink: "https://www.tickettailor.com/events/heartbreakrebellion/1851215",
