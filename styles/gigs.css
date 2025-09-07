@@ -111,18 +111,16 @@
         display: flex;
         justify-content: center;
         width: 100px;
-        /* background-color: #410A20;*/
+        height: max-content;
         background-color: #B65E49;
-        /* border: 1px solid #874DA8; */
         cursor: pointer;
         border-radius: 10px;
         padding: 5px;
       }
-      #cart-button:hover {
-          border: 1px solid #ffffff;
-          color: white;
+      #cart-button h4 {
+        font-size: var(--fs-300);
+        font-weight: 300;
       }
-
       #cart-button:hover {
           border: none;
           color: white;
@@ -136,6 +134,9 @@
           color: white;
       }
     }
+
+
+
   
 
 
