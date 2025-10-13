@@ -12,13 +12,6 @@
 	src: url(../open-sans-font/OpenSans-B9K8.ttf) format('truetype');
 }
 
-@font-face {
-	font-family:'Xurkit';
-	src: url(../open-sans-font/OpenSansBold-8wJJ.ttf) format('truetype');
-}
-
-
-
 
 
 * {
@@ -116,9 +109,9 @@ h2{
     white-space: wrap;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
     text-decoration: none;
-    font-family: 'Xurkit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: var(--fs-xl);
-    font-weight: 300;               
+    font-weight: 600;               
     font-style: normal;
     /* letter-spacing: 1px; */
   }
