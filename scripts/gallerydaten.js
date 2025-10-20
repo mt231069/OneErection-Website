@@ -71,7 +71,7 @@ const gallery = [
       "gallerypics/Szene_09_25/1E_Szene_24_18.avif",
     ],
     videos: ["gallerypics/album1/P9200137.MOV", "gallerypics/album1/P9200155.MOV"],
-    photographer: "Philip Rattacher & Yuriy Pyrtko"
+    photographer: "Philip Rattacher & Markus Pawlata"
   },
   {
     id: "7241d6b1-032e-43f8-a5ed-11c4af545477",
