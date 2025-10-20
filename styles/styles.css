@@ -68,9 +68,21 @@ main h2{
 .slideshow img {
   width: 100%;
   object-fit: cover;
-
 }
-
+  .slideshow .slide {
+    position: relative;
+  }
+  .slideshow .slide::after {
+    content: attr(data-fotograf);
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: gray;
+    font-size: var(--fs-200);
+    font-weight: 100;
+    padding: 2px 6px;
+    z-index: 100;
+  }
   .handleBtn {
     opacity: 0.55;
     background-color: transparent;
