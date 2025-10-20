@@ -114,7 +114,7 @@ const gallery = [
       "gallerypics/Maifestl_24/1E_Maifestl_24_10.jpeg",
       "gallerypics/Maifestl_24/1E_Maifestl_24_11.jpeg",
     ],
-    photographer: "sehr lieben Gästen und Freunden",
+    photographer: "Lisa Mayringer",
   },
   {
     id: "ba1a1324-23ab-4156-8c8f-31d615363c5e",
@@ -136,6 +136,6 @@ const gallery = [
     "gallerypics/Dezemberfestl_23/1E_Dezemberfestl_23_11.jpeg",
     "gallerypics/Dezemberfestl_23/1E_Dezemberfestl_23_12.jpeg",
     ],
-    photographer: "sehr lieben Gästen und Freunden",
+    photographer: "Lisa Mayringer",
   }
 ];
