@@ -3,7 +3,7 @@ const gigdaten = [
      preisCent: "gratis Eintritt",
      picture2:"Produktpics/ticket_mockup.png",
      name: "Openstage in der TU Wien",
-     location: "Prechtsaal",
+     location: "Prechtlsaal",
   //   adresse: "Lerchenfelder Str. 23, 1070 Wien",
      date: "2025-11-27",
      entry: "16:00",
