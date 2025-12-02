@@ -1,5 +1,5 @@
 const gigdaten = [
-   {
+  <!-- {
      preisCent: "0",
      picture2:"Produktpics/ticket_mockup.png",
      name: "Openstage in der TU Wien",
@@ -13,5 +13,5 @@ const gigdaten = [
      ticketLink: "https://www.tickettailor.com/events/heartbreakrebellion/1851215",
      whereToBuy: "/",
      id: "c491d55d-69f7-48b2-8707-a0b109cf3a3e"
-    }
+    }  -->
 ];
