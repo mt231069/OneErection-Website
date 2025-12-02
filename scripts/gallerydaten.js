@@ -5,6 +5,10 @@ const gallery = [
     albumDescription: "Der liebe Paul macht wilde Fotos mit seinem 3DS! Auf <a href="https://3dstagevibes.at/htu-ork-open-27.11./one-erection/" target="_blank"> könnt ihr Fotos aus der Tu (und ganze viele andere auch) sehen!",
     titlePicture: "gallerypics/TU_25/1E_TU_25_1.avif",
     titlePictureQf: "gallerypics/TU_25/1E_TU_25_1_Qf.avif",
+        pictures: [
+      "gallerypics/TU_25/1E_TU_25_1.avif",
+    ],
+    photographer: "Paul"
   },
     {
     id: "877da840-d51a-458c-a07e-ca39dc707076",
