@@ -1,8 +1,8 @@
 const gallery = [
-        {
+{
     id: "90aaed18-7b4d-4449-8166-ef8702895afc",
     description: "HTU OrK Open Stage <br> TU Wien",
-    albumDescription: "Der liebe Paul macht wilde Fotos mit seinem 3DS! Auf <a href="https://3dstagevibes.at/htu-ork-open-27.11./one-erection/" target="_blank"> könnt ihr Fotos aus der Tu (und ganze viele andere auch) sehen!",
+    albumDescription: "Der liebe Paul macht wilde Fotos mit seinem 3DS! Über diesen Link: <br> <a href='https://3dstagevibes.at/htu-ork-open-27.11./one-erection/' target='_blank'>Pauls Website</a> <br> könnt ihr Fotos aus der Tu (und ganze viele andere auch) sehen!",
     titlePicture: "gallerypics/TU_25/1E_TU_25_1.avif",
     titlePictureQf: "gallerypics/TU_25/1E_TU_25_1_Qf.avif",
         pictures: [
