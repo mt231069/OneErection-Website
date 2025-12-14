@@ -3,7 +3,7 @@ const gigdaten = [
      preisCent: "0",
      picture2:"Produktpics/ticket_mockup.png",
      name: "Playoff PP Tour",
-     location: "Szene Wien",
+     location: "Szene Wien (Playoff PP Tour)",
      adresse: "Hauffgasse 26, 1110 Wien",
      date: "2026-01-30",
      entry: " 18:30",
