@@ -18,7 +18,6 @@ const gallery = [
     titlePicture: "gallerypics/TU_25/1E_TU_25_12.webp",
     titlePictureQf: "gallerypics/TU_25/1E_TU_25_12_Qf.webp",
         pictures: [
-                "gallerypics/TU_25/1E_TU_25_1.webp",
                 "gallerypics/TU_25/1E_TU_25_2.webp",
                 "gallerypics/TU_25/1E_TU_25_3.webp",
                 "gallerypics/TU_25/1E_TU_25_4.webp",
