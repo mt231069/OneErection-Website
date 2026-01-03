@@ -1,16 +1,4 @@
 const gallery = [
-    id: "767ccff8-ba95-43ee-ae86-1562c39c2619",
-    description: "3dstagevibes.at",
-    albumDescription: "Paul Götzinger macht wilde Fotos mit seinem 3DS! Über diesen Link: <br> <a href='https://3dstagevibes.at/htu-ork-open-27.11./one-erection/' target='_blank'>Pauls Website</a> <br> könnt ihr Fotos von ganz vielen, tollen Konzerten sehen! <br> Hier ein Bild aus der TU:",
-    titlePicture: "gallerypics/3dstagevibes/1E_3dstagevibes_1.avif",
-    titlePictureQf: "gallerypics/3dstagevibes/TU_25/1E_3dstagevibes_1_Qf.avif",
-        pictures: [
-      "gallerypics/TU_25/1E_TU_25_1.avif",
-    ],
-    photographer: "Paul Götzinger"
-  },
-
-  },
 {
     id: "90aaed18-7b4d-4449-8166-ef8702895afc",
     description: "HTU OrK Open Stage <br> TU Wien",
@@ -77,6 +65,17 @@ const gallery = [
       "gallerypics/AERA_2025/1E_AERA_25_14.avif",
     ],
     photographer: "Max Peternell"
+  },
+{
+    id: "767ccff8-ba95-43ee-ae86-1562c39c2619",
+    description: "3dstagevibes.at",
+    albumDescription: "Paul Götzinger macht wilde Fotos mit seinem 3DS! Über diesen Link: <br> <a href='https://3dstagevibes.at/htu-ork-open-27.11./one-erection/' target='_blank'>Pauls Website</a> <br> könnt ihr Fotos von ganz vielen, tollen Konzerten sehen! <br> Hier ein Bild aus der TU:",
+    titlePicture: "gallerypics/3dstagevibes/1E_3dstagevibes_1.avif",
+    titlePictureQf: "gallerypics/3dstagevibes/TU_25/1E_3dstagevibes_1_Qf.avif",
+        pictures: [
+      "gallerypics/TU_25/1E_TU_25_1.avif",
+    ],
+    photographer: "Paul Götzinger"
   },
     {
     id: "9f3b7d1e-0c42-4c17-a6a8-34c2d9eebf8a",
