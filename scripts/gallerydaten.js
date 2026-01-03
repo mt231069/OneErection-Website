@@ -20,7 +20,7 @@ const gallery = [
     ],
     photographer: "Markus Pawlata"
   },
-    {
+ {
     id: "877da840-d51a-458c-a07e-ca39dc707076",
     description: "Prüfungsirrelevant <br> Replugged",
     albumDescription: "ZURÜCK NACH DER SOMMERPAUSE",
@@ -68,7 +68,7 @@ const gallery = [
   },
 {
     id: "767ccff8-ba95-43ee-ae86-1562c39c2619",
-    description: "3dstagevibes.at",
+    description: "3dstagevibes",
     albumDescription: "Paul Götzinger macht wilde Fotos mit seinem 3DS! Über diesen Link: <br> <a href='https://3dstagevibes.at/htu-ork-open-27.11./one-erection/' target='_blank'>Pauls Website</a> <br> könnt ihr Fotos von ganz vielen, tollen Konzerten sehen! <br> Hier ein Bild aus der TU:",
     titlePicture: "gallerypics/3dstagevibes/1E_3dstagevibes_1.avif",
     titlePictureQf: "gallerypics/3dstagevibes/TU_25/1E_3dstagevibes_1_Qf.avif",
