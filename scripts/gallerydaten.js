@@ -2,13 +2,24 @@ const gallery = [
         {
     id: "90aaed18-7b4d-4449-8166-ef8702895afc",
     description: "HTU OrK Open Stage <br> TU Wien",
-    albumDescription: "Der liebe Paul macht wilde Fotos mit seinem 3DS! Über diesen Link: <br> <a href='https://3dstagevibes.at/htu-ork-open-27.11./one-erection/' target='_blank'>Pauls Website</a> <br> könnt ihr Fotos aus der Tu (und ganze viele andere auch) sehen!",
-    titlePicture: "gallerypics/TU_25/1E_TU_25_1.avif",
-    titlePictureQf: "gallerypics/TU_25/1E_TU_25_1_Qf.avif",
+    albumDescription: "ein wildes Fest auf der TU",
+    titlePicture: "gallerypics/TU_25/1E_TU_25_12.webp",
+    titlePictureQf: "gallerypics/TU_25/1E_TU_25_12_Qf.webp",
         pictures: [
-      "gallerypics/TU_25/1E_TU_25_1.avif",
+                "gallerypics/TU_25/1E_TU_25_1.webp",
+                "gallerypics/TU_25/1E_TU_25_2.webp",
+                "gallerypics/TU_25/1E_TU_25_3.webp",
+                "gallerypics/TU_25/1E_TU_25_4.webp",
+                "gallerypics/TU_25/1E_TU_25_5.webp",
+                "gallerypics/TU_25/1E_TU_25_6.webp",
+                "gallerypics/TU_25/1E_TU_25_7.webp",
+                "gallerypics/TU_25/1E_TU_25_8.webp",
+                "gallerypics/TU_25/1E_TU_25_9.webp",
+                "gallerypics/TU_25/1E_TU_25_10.webp",
+                "gallerypics/TU_25/1E_TU_25_11.webp",
+                "gallerypics/TU_25/1E_TU_25_12.webp"
     ],
-    photographer: "Paul"
+    photographer: "Markus Pawlata"
   },
     {
     id: "877da840-d51a-458c-a07e-ca39dc707076",
