@@ -71,9 +71,9 @@ const gallery = [
     description: "3dstagevibes",
     albumDescription: "Paul Götzinger macht wilde Fotos mit seinem 3DS! Über diesen Link: <br> <a href='https://3dstagevibes.at/htu-ork-open-27.11./one-erection/' target='_blank'>Pauls Website</a> <br> könnt ihr Fotos von ganz vielen, tollen Konzerten sehen! <br> Hier ein Bild aus der TU:",
     titlePicture: "gallerypics/3dstagevibes/1E_3dstagevibes_1.avif",
-    titlePictureQf: "gallerypics/3dstagevibes/TU_25/1E_3dstagevibes_1_Qf.avif",
+    titlePictureQf: "gallerypics/3dstagevibes/1E_3dstagevibes_1_Qf.avif",
         pictures: [
-      "gallerypics/TU_25/1E_TU_25_1.avif",
+      "gallerypics/3dstagevibes/1E_3dstagevibes_1.avif",
     ],
     photographer: "Paul Götzinger"
   },
