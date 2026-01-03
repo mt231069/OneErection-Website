@@ -69,7 +69,7 @@ const gallery = [
 {
     id: "767ccff8-ba95-43ee-ae86-1562c39c2619",
     description: "3dstagevibes <br> 3DS Bilder",
-    albumDescription: "Der liebe Paul macht wilde Fotos mit seinem 3DS! Über diesen Link: <br> <a href='https://3dstagevibes.at/htu-ork-open-27.11./one-erection/' target='_blank'>Pauls Website</a> <br> kann man Fotos von ganz vielen tollen Konzerten sehen! <br> <br> Hier ein Bild aus der TU:",
+    albumDescription: "Der liebe Paul macht wilde Fotos mit seinem 3DS! <br> Über diesen Link: <a href='https://3dstagevibes.at/' target='_blank'>Pauls Website</a> <br> kann man Fotos von ganz vielen tollen Konzerten sehen! <br> <br> Hier ein Bild aus der TU:",
     titlePicture: "gallerypics/3dstagevibes/1E_3dstagevibes_1.avif",
     titlePictureQf: "gallerypics/3dstagevibes/1E_3dstagevibes_1_Qf.avif",
         pictures: [
