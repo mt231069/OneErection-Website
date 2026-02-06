@@ -35,7 +35,12 @@ gallery.forEach((album) => {
 
     // document.getElementById("titellogo").innerHTML = albumDescriptionHTML;
 
-    document.querySelector(".js-photographer").innerHTML = `<p class="photographer">Fotos von ${album.photographer || 'leider keine Ahnung wem'}</p>`;
+    document.querySelector(".js-photographer").innerHTML =
+	`<p class="photographer">
+	<a href= ${album.photographerLink || ‘#‘ }>
+	Fotos von ${album.photographer || 'leider keine Ahnung wem'}
+	<a>
+	</p>`;
 
     document.querySelector(".js-banner").innerHTML =  `
     	<source media="(max-width: 768px)" srcset="${album.titlePicture}">
