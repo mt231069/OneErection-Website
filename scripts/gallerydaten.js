@@ -1,7 +1,7 @@
 const gallery = [
     {
     id: "74a00869-85ef-4e6b-bcb2-6c3bc1924993",
-    description: "Playoffs der Planet Festival Tour <br> Szene Wien",
+    description: "Planet Festival Tour <br> Szene Wien",
     albumDescription: "diesmal als Gast dabei und es war eine Freude",
     titlePicture: "gallerypics/Szene_01_26/1E_Replugged_25_1.webp",
     titlePictureQf: "gallerypics/Szene_01_26/1E_Replugged_25_1_Qf.webp",
