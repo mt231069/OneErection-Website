@@ -34,13 +34,17 @@ gallery.forEach((album) => {
     document.querySelector(".js-album-description").innerHTML = albumDescriptionHTML;
 
     // document.getElementById("titellogo").innerHTML = albumDescriptionHTML;
-
-    document.querySelector(".js-photographer").innerHTML =
-	`<p class="photographer">
-	<a href= ${album.photographerLink || ‘#‘ }>
-	Fotos von ${album.photographer || 'leider keine Ahnung wem'}
-	<a>
-	</p>`;
+    document.querySelector(".js-photographer").innerHTML = album.photographerLink ?
+      `<p class="photographer">
+        Fotos von 
+        <a href= ${album.photographerLink} target="_blank">
+          ${album.photographer || 'leider keine Ahnung wem'} 
+        </a>
+      </p>` :
+      `<p class="photographer">
+        Fotos von 
+          ${album.photographer || 'leider keine Ahnung wem'}
+    	</p>`;
 
     document.querySelector(".js-banner").innerHTML =  `
     	<source media="(max-width: 768px)" srcset="${album.titlePicture}">
