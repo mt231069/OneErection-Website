@@ -1,4 +1,24 @@
 const gallery = [
+    {
+    id: "74a00869-85ef-4e6b-bcb2-6c3bc1924993",
+    description: "Playoffs der Planet Festival Tour <br> Szene Wien",
+    albumDescription: "diesmal als Gast dabei und es war eine Freude",
+    titlePicture: "gallerypics/Szene_01_26/1E_Replugged_25_1.webp",
+    titlePictureQf: "gallerypics/Szene_01_26/1E_Replugged_25_1_Qf.webp",
+        pictures: [
+                "gallerypics/Szene_01_26/1E_Replugged_25_1.webp",
+                "gallerypics/Szene_01_26/1E_Replugged_25_2.webp",
+                "gallerypics/Szene_01_26/1E_Replugged_25_3.webp",
+                "gallerypics/Szene_01_26/1E_Replugged_25_4.webp",
+                "gallerypics/Szene_01_26/1E_Replugged_25_5.webp",
+                "gallerypics/Szene_01_26/1E_Replugged_25_6.webp",
+                "gallerypics/Szene_01_26/1E_Replugged_25_7.webp",
+                "gallerypics/Szene_01_26/1E_Replugged_25_8.webp",
+
+    ],
+    photographer: "Valentin",
+    photographerLink: "https://www.instagram.com/user.1298074/"
+  },
 {
     id: "90aaed18-7b4d-4449-8166-ef8702895afc",
     description: "HTU OrK Open Stage <br> TU Wien",
