@@ -3,7 +3,7 @@ const gigdaten = [
      preisCent: "7",
      picture2:"Produktpics/ticket_mockup.png",
      name: "Smörebröht Metak, One Erection",
-     location: "Kramladen)",
+     location: "Kramladen mit Smörebröht und Metak",
      adresse: "39/40 u-bahnbogen, 1080",
      date: "2026-03-27",
      entry: " 19:30",
