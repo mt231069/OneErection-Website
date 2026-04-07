@@ -1,5 +1,24 @@
 const gallery = [
     {
+    id: "044fabb7-1328-466e-9893-70d50126ee93",
+    description: "Mit Smörebröht und Metak <br> Kramladen",
+    albumDescription: "Wahnsinnsgig",
+    titlePicture: "gallerypics/Kramladen_26/1E_Kramladen_26_6.webp",
+    titlePictureQf: "gallerypics/Kramladen_26/1E_Kramladen_26_6_Qf.webp",
+        pictures: [
+            "gallerypics/Kramladen_26/1E_Kramladen_26_1.webp",
+            "gallerypics/Kramladen_26/1E_Kramladen_26_2.webp",
+            "gallerypics/Kramladen_26/1E_Kramladen_26_3.webp",
+            "gallerypics/Kramladen_26/1E_Kramladen_26_4.webp",
+            "gallerypics/Kramladen_26/1E_Kramladen_26_5.webp",
+            "gallerypics/Kramladen_26/1E_Kramladen_26_6.webp",
+            "gallerypics/Kramladen_26/1E_Kramladen_26_7.webp",
+            "gallerypics/Kramladen_26/1E_Kramladen_26_8.webp",
+            "gallerypics/Kramladen_26/1E_Kramladen_26_9.webp",
+    ],
+    photographer: "Markus Pawlata"
+  },
+    {
     id: "74a00869-85ef-4e6b-bcb2-6c3bc1924993",
     description: "Planet Festival Tour <br> Szene Wien",
     albumDescription: "diesmal als Gast dabei und es war eine Freude",
