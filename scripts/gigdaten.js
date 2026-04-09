@@ -1,5 +1,6 @@
 const gigdaten = [
-{
+/*
+     {
      preisCent: "7",
      picture2:"Produktpics/ticket_mockup.png",
      name: "Smörebröht, Metak, One Erection",
@@ -14,4 +15,5 @@ const gigdaten = [
      whereToBuy: "/",
      id: "c491d55d-69f7-48b2-8707-a0b109cf3a3e"
     }
+    */
 ];
